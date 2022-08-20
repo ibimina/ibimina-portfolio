@@ -17,16 +17,17 @@ export default function Works() {
             </figure>
             <div className="project-details">
               <h4>{project.name}</h4>
-              <p className="tech-con">
-                Technologies used :
+              <div className="tech-con">
+                <p>Technologies used : </p>
                 {project.technologies.map((element) => (
                   <span key={element} className="tech">
                     {element}
                   </span>
-                ))}
-              </p>
-              <p>{project.description}</p>
-              <div>
+                ))}{" "}
+              </div>
+
+              <p className="desc">{project.description}</p>
+              <div className="link">
                 <a href={project.url} target="blank" rel="noreferrer">
                   Live
                 </a>

@@ -9,10 +9,10 @@ nav("/")
 
   };
   return (
-    <div>
-      <h1>thanks</h1>
-
-      <button onClick={handleSubmit}>home</button>
+    <div className="thanks">
+      <h1 className="thankyou">Thanks for the message!</h1>
+<p>I'll get back to you as soon as possible</p>
+      <button onClick={handleSubmit} className="home">BACK TO PORTFOLIO</button>
     </div>
   );
 }

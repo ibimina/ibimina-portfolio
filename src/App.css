@@ -13,6 +13,10 @@
 }
 .social {
   margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }
 .resume {
   padding: 0.7em 1em;
@@ -20,7 +24,7 @@
   border: 0;
   background-color: hsl(240, 84%, 38%);
   color: hsl(240, 18%, 93%);
-  margin-bottom: 2em;
+
   cursor: pointer;
 }
 .icons {
@@ -32,42 +36,97 @@
 .icons a {
   color: hsl(240, 84%, 38%);
   cursor: pointer;
+  background-color: white;
+  padding: 0.2em 0.5em 0em 0.5em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: justify;
 }
-#about{
-    margin-bottom: 3em ;
+#about {
+  margin-bottom: 3em;
 }
-.abt{
-    margin-bottom: .5em;
+.abt {
+  margin-bottom: 0.5em;
 }
-#skills{
-    margin-bottom: 3em ; 
+#skills {
+  margin-bottom: 3em;
 }
-.skill-set{
-display: grid;
-grid-template-columns: repeat(3,1fr);
+.skill-set {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
-align-items:baseline;
-text-align: center;
-gap: 1em;
+  align-items: baseline;
+  text-align: center;
+  gap: 1em;
 }
-.skill-set img{
-    display: inline;
+.skill-set img {
+  display: inline;
 }
-.project{
+.project {
   margin-bottom: 2em;
 }
-#work article{
-  margin-bottom: 3em; 
+#work article {
+  margin-bottom: 3em;
 }
-.project img{
-    /* max-height: 350px; */
-    border-radius: 10px;
+.project img {
+  /* max-height: 350px; */
+  border-radius: 10px;
 }
-h4{
-  text-transform:capitalize;
+.tech-con {
+  display: flex;
+}
+.tech {
+  color: hsl(240, 50%, 30%);
+  font-weight: 700;
+}
+.tech::after {
+  content: " , ";
+  /* margin-right: .2em; */
+}
+.tech-con :last-child::after {
+  content: ".";
+}
+h4 {
+  text-transform: capitalize;
 }
 form {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.link {
+  display: flex;
+  gap: 1em;
+}
+.desc {
+  margin: 1em 0;
+}
+.thanks{
+  margin-top: 5em;
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+}
+.thankyou{
+  margin-bottom: .5em;
+  /* font-size: 22px; */
+}
+.home{
+  padding: .5em;
+  /* border-radius: 10px; */
+  border: 0;
+  margin-top: 2em ;
+}
+#contact p{
+  margin-bottom: 1em;
+}
+#contact form{
+  padding: 1em;
+}
+#contact input{
+  padding: 1em ;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  border: 0;
 }
