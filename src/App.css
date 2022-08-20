@@ -1,38 +1,73 @@
-.App {
+.avatar {
+  background-color: hsl(52, 27%, 38%);
+  border-radius: 50%;
+  width: 190px;
+  display: inline;
+}
+#home {
   text-align: center;
+  margin: 2em 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.uppercase {
+  text-transform: uppercase;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.social {
+  margin-top: 1em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.resume {
+  padding: 0.7em 1em;
+  border-radius: 25px;
+  border: 0;
+  background-color: hsl(240, 84%, 38%);
+  color: hsl(240, 18%, 93%);
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+.icons {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2em;
 }
-
-.App-link {
-  color: #61dafb;
+.icons a {
+  color: hsl(240, 84%, 38%);
+  cursor: pointer;
 }
+#about{
+    margin-bottom: 3em ;
+}
+.abt{
+    margin-bottom: .5em;
+}
+#skills{
+    margin-bottom: 3em ; 
+}
+.skill-set{
+display: grid;
+grid-template-columns: repeat(3,1fr);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+align-items:baseline;
+text-align: center;
+gap: 1em;
+}
+.skill-set img{
+    display: inline;
+}
+.project{
+  margin-bottom: 2em;
+}
+#work article{
+  margin-bottom: 3em; 
+}
+.project img{
+    /* max-height: 350px; */
+    border-radius: 10px;
+}
+h4{
+  text-transform:capitalize;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

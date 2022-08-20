@@ -1,0 +1,118 @@
+{
+  "skills": [
+    {
+      "image": "./images/skills/html5.svg",
+      "alt": "html5 logo",
+      "name": "HTML5"
+    },
+    {
+      "image": "./images/skills/css3.svg",
+      "alt": "css3 logo",
+      "name": "CSS3"
+    },
+    {
+      "image": "./images/skills/javascript.svg",
+      "alt": "javascript logo",
+      "name": "JS"
+    },
+    {
+      "image": "./images/skills/react.svg",
+      "alt": "react logo",
+      "name": "ReactJs"
+    },
+    { "image": "./images/skills/git.svg", "alt": "git logo", "name": "Git" },
+    {
+      "image": "./images/skills/terminal.png",
+      "alt": "terminal logo",
+      "name": "Terminal"
+    },
+    {
+      "image": "./images/skills/firebase.svg",
+      "alt": "firebase logo",
+      "name": "Firebase"
+    },
+    {
+      "image": "./images/skills/webaccessibility.png",
+      "alt": "web accessibility logo",
+      "name": "accessibility"
+    },
+    {
+      "image": "./images/skills/visual-studio.svg",
+      "alt": "visual studio logo",
+      "name": "Visual studio"
+    },
+    {
+      "image": "./images/skills/responsive.png",
+      "alt": "a responsive logo",
+      "name": "responsive"
+    },
+    {
+      "image": "./images/skills/rest-api.png",
+      "alt": "rest api logo,",
+      "name": "rest api"
+    }
+  ],
+  "projects": [
+    {"id":"ics",
+      "name": "interactive comment section",
+      "image": "./images/projects/interacomment.png",
+      "technologies": ["HTML5", "CSS3", "JS"],
+      "description": "A CRUD comment section.,allows user create,read,update and delet comments",
+      "url": "https://ibimina.github.io/interactive-comments-section-main/",
+      "repo": "https://github.com/ibimina/interactive-comments-section-main"
+    },
+    {
+      "id": "job",
+      "name": "job listing",
+      "image": "./images/projects/job-listing.png",
+      "technologies": ["HTML5", "CSS3", "JS"],
+      "description": "A job listing web page.Allows user to search for job with desired skills",
+      "repo": "https://github.com/ibimina/static-job-listings-master",
+      "url": "https://ibimina.github.io/static-job-listings-master/"
+    },
+    {
+      "id": "tip",
+      "name": "tip calculator",
+      "image": "./images/projects/tip-calculator.png",
+      "technologies": ["HTML5", "CSS3", "JS"],
+      "description": "Calculate the correct tip and total cost of the bill per person",
+      "url": "https://ibimina.github.io/tip-calculator-app-main/",
+      "repo": "https://github.com/ibimina/tip-calculator-app-main"
+    },
+    {
+      "id": "recipe",
+      "name": "cocktail recipe",
+      "image": "./images/projects/cocktail-recipe.png",
+      "technologies": ["React", "REST API", "CSS3"],
+      "description": "Aperiti is a catalog of mixed drinks recipes. Toggle between light and dark themes users search for new cocktail recipe",
+      "url": "https://ibimina.github.io/cocktail-recipes/",
+      "repo": "https://github.com/ibimina/cocktail-recipes"
+    },
+    {
+      "id": "selector",
+      "name": "random country selector",
+      "image": "./images/projects/random-country.png",
+      "technologies": ["CSS3", "React"],
+      "description": "Displays random countries details",
+      "url": "https://ibimina.github.io/travel-destination/",
+      "repo": "https://github.com/ibimina/travel-destination"
+    },
+    {
+      "id": "game",
+      "name": "rock paper sicssors game",
+      "image": "./images/projects/gamee.png",
+      "technologies": ["HTML5", "CSS3", "JS"],
+      "description": "Play rock paper sicssor game with a bot",
+      "url": "https://ibimina.github.io/rock-paper-scissors-game/",
+      "repo": "https://github.com/ibimina/rock-paper-scissors-game"
+    },{
+      "id": "landing",
+      "name": "loopstudios",
+      "image": "./images/projects/loop.png",
+      "technologies": ["HTML5", "CSS3", "JS"],
+      "description": "A landing page for loopstudios",
+      "url": "https://ibimina.github.io/loopstudio-lading-page/",
+      "repo": "https://github.com/ibimina/loopstudio-landing-page"
+    }
+  ]
+}
