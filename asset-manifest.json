@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ibimina/ibimina-portfolio.git/static/css/main.cf4a604c.css",
-    "main.js": "/ibimina/ibimina-portfolio.git/static/js/main.c35818f9.js",
-    "index.html": "/ibimina/ibimina-portfolio.git/index.html",
-    "static/media/icon-close.svg": "/ibimina/ibimina-portfolio.git/static/media/icon-close.3e88bd6e1dd859233d65.svg",
-    "static/media/icon-hamburger.svg": "/ibimina/ibimina-portfolio.git/static/media/icon-hamburger.dc022bac537a273572af.svg",
-    "main.cf4a604c.css.map": "/ibimina/ibimina-portfolio.git/static/css/main.cf4a604c.css.map",
-    "main.c35818f9.js.map": "/ibimina/ibimina-portfolio.git/static/js/main.c35818f9.js.map"
+    "main.css": "/ibimina/ibimina-portfolio/static/css/main.b55ec3d0.css",
+    "main.js": "/ibimina/ibimina-portfolio/static/js/main.c35818f9.js",
+    "index.html": "/ibimina/ibimina-portfolio/index.html",
+    "static/media/icon-close.svg": "/ibimina/ibimina-portfolio/static/media/icon-close.3e88bd6e1dd859233d65.svg",
+    "static/media/icon-hamburger.svg": "/ibimina/ibimina-portfolio/static/media/icon-hamburger.dc022bac537a273572af.svg",
+    "main.b55ec3d0.css.map": "/ibimina/ibimina-portfolio/static/css/main.b55ec3d0.css.map",
+    "main.c35818f9.js.map": "/ibimina/ibimina-portfolio/static/js/main.c35818f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf4a604c.css",
+    "static/css/main.b55ec3d0.css",
     "static/js/main.c35818f9.js"
   ]
 }
