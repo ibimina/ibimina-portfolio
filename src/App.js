@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import Thankyou from "./Thankyou";
 
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         {/* <NavBar /> */}
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Routes>
           <Route path="/" element={<Portfolio />} />
           <Route path="thankyou" element={<Thankyou />} />

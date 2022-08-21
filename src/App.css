@@ -131,3 +131,11 @@ form {
   border-radius: 10px;
   border: 0;
 }
+textarea{
+  border-radius: 10px;
+}
+.submit{
+  background-color: blue;
+  color: white;
+  margin-top: 2em;
+}

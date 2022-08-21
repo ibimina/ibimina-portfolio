@@ -43,7 +43,7 @@ export default function Contact() {
           field="message"
           errors={state.errors}
         />
-        <input type="submit" disabled={state.submitting} value="SUBMIT" />
+        <input type="submit" disabled={state.submitting} value="SUBMIT"className="submit" />
         {/* <input type="submit" value="SUBMIT" /> */}
       </form>
     </div>
