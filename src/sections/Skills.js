@@ -1,15 +1,15 @@
-import { useFetch } from "../hook/useFetch";
-
+// import { useFetch } from "../hook/useFetch";
+import data from "../data.json";
 export default function Skills() {
-  const { data, isLoading, error } = useFetch();
+  // const { data, isLoading, error } = useFetch();
 
 
   return (
     <div id="skills">
       <h2 className="uppercase abt">skills</h2>
       <div className="skill-set">
-        {error && <>error...</>}
-        {isLoading && <>Loading</>}
+        {/* {error && <>error...</>}
+        {isLoading && <>Loading</>} */}
         {data &&
           data.skills.map((skill) => (
             <figure key={skill.name}>
