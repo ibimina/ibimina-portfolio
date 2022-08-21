@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ibimina-portfolio/static/css/main.b4b5515d.css",
-    "main.js": "/ibimina-portfolio/static/js/main.37e20fd4.js",
+    "main.css": "/ibimina-portfolio/static/css/main.a25bb67e.css",
+    "main.js": "/ibimina-portfolio/static/js/main.44ba15d5.js",
     "index.html": "/ibimina-portfolio/index.html",
     "static/media/icon-close.svg": "/ibimina-portfolio/static/media/icon-close.3e88bd6e1dd859233d65.svg",
     "static/media/icon-hamburger.svg": "/ibimina-portfolio/static/media/icon-hamburger.dc022bac537a273572af.svg",
-    "main.b4b5515d.css.map": "/ibimina-portfolio/static/css/main.b4b5515d.css.map",
-    "main.37e20fd4.js.map": "/ibimina-portfolio/static/js/main.37e20fd4.js.map"
+    "main.a25bb67e.css.map": "/ibimina-portfolio/static/css/main.a25bb67e.css.map",
+    "main.44ba15d5.js.map": "/ibimina-portfolio/static/js/main.44ba15d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4b5515d.css",
-    "static/js/main.37e20fd4.js"
+    "static/css/main.a25bb67e.css",
+    "static/js/main.44ba15d5.js"
   ]
 }
