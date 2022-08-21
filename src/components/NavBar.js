@@ -18,29 +18,29 @@ const handleShow =()=>{
         {/* <nav role="navigation" data-visible={show}> */}
         <ul>
           <li onClick={() => setShow("false")}>
-            <HashLink to="/#home">
+            <HashLink to="#home">
               <FaHome /> <span> home</span>
             </HashLink>
           </li>
           <li onClick={() => setShow("false")}>
-            <HashLink to="/#about">
+            <HashLink to="#about">
               <FaUser /> <span>about</span>
             </HashLink>
           </li>
           <li onClick={() => setShow("false")}>
-            <HashLink to="/#skills">
+            <HashLink to="#skills">
               {" "}
               <FaCode /> <span> skills</span>
             </HashLink>{" "}
           </li>
           <li onClick={() => setShow("false")}>
-            <HashLink to="/#work">
+            <HashLink to="#work">
               <FaShoppingBag />
               <span> projects</span>
             </HashLink>
           </li>
           <li onClick={() => setShow("false")}>
-            <HashLink to="/#contact">
+            <HashLink to="#contact">
               <FaPhone />
               <span>contact</span>
             </HashLink>
