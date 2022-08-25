@@ -12,7 +12,8 @@ h6,
 p,
 ul,
 img,
-figure {
+figure,
+body {
   padding: 0;
   margin: 0;
 }
@@ -23,20 +24,28 @@ figure {
   border: 0;
   overflow: hidden;
 }
-
+html{
+  overflow-y: scroll;
+}
 body,
 #root,
 .App {
-  margin: 0;
   width: 100%;
   min-height: 100vh;
-  font-size: 16px;
-  line-height: 25px;
-  letter-spacing: .5px;
 }
+
 .App {
   background-color: hsl(240, 33%, 95%);
-  padding: 2em;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  max-width: 900px;
+
 }
 img {
   max-width: 100%;
@@ -73,10 +82,16 @@ nav {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  overflow-y: scroll;
 }
 nav[data-visible="true"] {
   display: flex;
   transform: translateY(100%);
+
+  
+}
+.name::first-letter{
+color: blue;
 }
 .title {
   padding-top: 2em;
@@ -85,19 +100,32 @@ nav[data-visible="true"] {
 
 ul {
   list-style: none;
-  padding: 2em;
+  padding: 2em ;
 }
 li {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 ul a {
   text-decoration: none;
   display: flex;
   align-items: center;
+  /* justify-content: space-between; */
   gap: 1em;
   color: #fff;
-  font-size: 14px;
   cursor: pointer;
+  padding:  0 ;
+  padding-right: .2em;
 }
+ul svg {
 
+  padding: 0.2em 0;
+  font-size: 1.5em;
+}
+ul span {
+  font-size: 10px;
+
+}
+main{
+  padding: 2em;
+}

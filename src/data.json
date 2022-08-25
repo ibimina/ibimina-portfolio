@@ -53,11 +53,12 @@
     }
   ],
   "projects": [
-    {"id":"ics",
+    {
+      "id": "ics",
       "name": "interactive comment section",
       "image": "./images/projects/interacomment.png",
       "technologies": ["HTML", "CSS", "JS"],
-      "description": "A CRUD comment section.,allows user create,read,update and delet comments",
+      "description": "A CRUD comment section component built with Vanilla Javascript,data gotten from local JSON file. It allows user create,read,update and delete comments.",
       "url": "https://ibimina.github.io/interactive-comments-section-main/",
       "repo": "https://github.com/ibimina/interactive-comments-section-main"
     },
@@ -66,7 +67,7 @@
       "name": "job listing",
       "image": "./images/projects/job-listing.png",
       "technologies": ["HTML", "CSS", "JS"],
-      "description": "A job listing web page.Allows user to search for job with desired skills",
+      "description": "A job listing web page that allows you search for job using skills. Job listing come from local JSON file.",
       "repo": "https://github.com/ibimina/static-job-listings-master",
       "url": "https://ibimina.github.io/static-job-listings-master/"
     },
@@ -84,7 +85,7 @@
       "name": "cocktail recipe",
       "image": "./images/projects/cocktail-recipe.png",
       "technologies": ["React", "REST API", "CSS"],
-      "description": "Aperiti is a catalog of mixed drinks recipes. Toggle between light and dark themes users search for new cocktail recipe",
+      "description": "Aperiti is a catalog of mixed drinks recipes. Cocktail recipe come from thecocktaildb.com .Theme selector toggle between light and dark themes, responsive across devices",
       "url": "https://ibimina.github.io/cocktail-recipes/",
       "repo": "https://github.com/ibimina/cocktail-recipes"
     },
@@ -93,7 +94,7 @@
       "name": "random country selector",
       "image": "./images/projects/random-country.png",
       "technologies": ["CSS", "React"],
-      "description": "Displays random countries details",
+      "description": "Want to know more about countries of the world? Then click to generate a random country and learn more!",
       "url": "https://ibimina.github.io/travel-destination/",
       "repo": "https://github.com/ibimina/travel-destination"
     },
@@ -105,12 +106,13 @@
       "description": "Play rock paper sicssor game with a bot",
       "url": "https://ibimina.github.io/rock-paper-scissors-game/",
       "repo": "https://github.com/ibimina/rock-paper-scissors-game"
-    },{
+    },
+    {
       "id": "landing",
       "name": "loopstudios",
       "image": "./images/projects/loop.png",
       "technologies": ["HTML", "CSS", "JS"],
-      "description": "A landing page for loopstudios",
+      "description": "A landing page for loopstudios.",
       "url": "https://ibimina.github.io/loopstudio-lading-page/",
       "repo": "https://github.com/ibimina/loopstudio-landing-page"
     }

@@ -102,40 +102,105 @@ form {
 .desc {
   margin: 1em 0;
 }
-.thanks{
+.thanks {
   margin-top: 5em;
   background-color: white;
   padding: 1em;
   border-radius: 10px;
   text-align: center;
 }
-.thankyou{
-  margin-bottom: .5em;
+.thankyou {
+  margin-bottom: 0.5em;
   /* font-size: 22px; */
 }
-.home{
-  padding: .5em;
+.home {
+  padding: 0.5em;
   /* border-radius: 10px; */
   border: 0;
-  margin-top: 2em ;
+  margin-top: 2em;
 }
-#contact p{
+#contact p {
   margin-bottom: 1em;
 }
-#contact form{
+#contact form {
   padding: 1em;
 }
-#contact input{
-  padding: 1em ;
+#contact input {
+  padding: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
   border: 0;
 }
-textarea{
+textarea {
   border-radius: 10px;
 }
-.submit{
+.submit {
   background-color: blue;
   color: white;
   margin-top: 2em;
 }
+@media (min-width: 40rem) {
+  .skill-set {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #work article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    text-align: right;
+  }
+  .tech-con,
+  .link {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 60rem) {
+  #home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .info {
+    text-align: left;
+  }
+  .intro{
+    text-align: left;
+  }
+  .skill-set {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .mobile-navigation {
+    display: none;
+  }
+  nav {
+    transform: translateY(100%);
+    max-width: 100px;
+  }
+  .nav-name {
+    display: none;
+  }
+ul a:hover{
+   background-color: hsl(229, 78%, 31%);
+   border-radius: 5px;
+ box-shadow: 2px 2px 5px rgba(24, 22, 44, 0.5);
+}
+  nav:hover {
+    max-width: 170px;
+  }
+  nav:hover .nav-name {
+    transition-delay: 0.5s;
+    display: block;
+    transition-delay: 0.5s;
+  }
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+  main {
+    overflow: hidden;
+   margin-left: 5em;
+  }
+  
+}
+/* transition: 500ms ease-in-out; */

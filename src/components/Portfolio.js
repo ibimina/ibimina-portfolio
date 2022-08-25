@@ -7,14 +7,15 @@ import NavBar from "./NavBar"
 
 export default function Portfolio() {
   return (
-
-   <>
-   <NavBar/>
-   <Home/>
-   <About/>
-   <Skills/>
-   <Works/>
-   <Contact/>
-   </>
-  )
+    <>
+      <NavBar />
+      <main>
+        <Home />
+        <About />
+        <Skills />
+        <Works />
+        <Contact />
+      </main>
+    </>
+  );
 }

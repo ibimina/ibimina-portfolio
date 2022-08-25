@@ -19,30 +19,30 @@ const handleShow =()=>{
         <ul>
           <li onClick={() => setShow("false")}>
             <HashLink to="#home">
-              <FaHome /> <span> home</span>
+              <FaHome /> <span className="nav-name"> home</span>
             </HashLink>
           </li>
           <li onClick={() => setShow("false")}>
             <HashLink to="#about">
-              <FaUser /> <span>about</span>
+              <FaUser /> <span className="nav-name">about</span>
             </HashLink>
           </li>
           <li onClick={() => setShow("false")}>
             <HashLink to="#skills">
               {" "}
-              <FaCode /> <span> skills</span>
+              <FaCode /> <span className="nav-name"> skills</span>
             </HashLink>{" "}
           </li>
           <li onClick={() => setShow("false")}>
             <HashLink to="#work">
               <FaShoppingBag />
-              <span> projects</span>
+              <span className="nav-name"> projects</span>
             </HashLink>
           </li>
           <li onClick={() => setShow("false")}>
             <HashLink to="#contact">
               <FaPhone />
-              <span>contact</span>
+              <span className="nav-name">contact</span>
             </HashLink>
           </li>
         </ul>

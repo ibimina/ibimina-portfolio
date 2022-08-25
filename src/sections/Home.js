@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+// import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 
 export default function Home() {
@@ -14,15 +14,15 @@ export default function Home() {
         </figure>
 
         <article>
-          <p className="uppercase">Hi there i'm</p>
-          <p className="uppercase">ibimina hart</p>
-          <p>
+          <p className="">Hello! I'm ibimina hart</p>
+          {/* <p className="uppercase name">ibimina hart</p> */}
+          <p className="info">
             A frontend web Developer passionate about creating eye-catching,
             accessible, and user-friendly websites and applications
           </p>
           <div className="social">
             <button className="resume">Resume</button>
-            <div className="icons">
+            {/* <div className="icons">
               <a
                 href="http://linked/in/ibimina-hart"
                 rel="noreferrer"
@@ -47,7 +47,7 @@ export default function Home() {
               >
                 <FaTwitter />
               </a>
-            </div>
+            </div> */}
           </div>
         </article>
       </section>
