@@ -3,8 +3,8 @@ export default function About() {
     <section id="about">
       <h2 className="uppercase abt">About me</h2>
       <p className="intro">
-        I'm a frontend developer.Currently an undergraduate of Alt school Africa
-        and Frontend learning women for women Bootcamp.
+        I'm a frontend developer.Currently an undergraduate of Altschool Africa
+        and Frontend learning group women Bootcamp.
       </p>
     </section>
   );

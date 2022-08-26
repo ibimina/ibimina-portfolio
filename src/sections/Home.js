@@ -14,7 +14,7 @@ export default function Home() {
         </figure>
 
         <article>
-          <p className="">Hello! I'm ibimina hart</p>
+          <p className="name">Hello! I'm ibimina hart</p>
           {/* <p className="uppercase name">ibimina hart</p> */}
           <p className="info">
             A frontend web Developer passionate about creating eye-catching,
