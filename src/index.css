@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 *,
 *::before,
 *::after {
@@ -70,7 +71,7 @@ img {
   background-image: url("../public/images/icon-close.svg");
 }
 nav {
-  background-color: hsl(234, 91%, 55%);
+  background-color: hsl(221, 98%, 57%);
   position: fixed;
   width: 50%;
   height: 100%;
@@ -96,7 +97,10 @@ color: blue;
 .title {
   padding-top: 2em;
   margin-bottom: 2em;
+  font-family: 'Leckerli One', cursive;
+font-weight: 200;
 }
+
 
 ul {
   list-style: none;
