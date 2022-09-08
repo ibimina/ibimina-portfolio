@@ -163,7 +163,7 @@ textarea {
   .info {
     text-align: left;
   }
-  .intro{
+  .intro {
     text-align: left;
   }
   .skill-set {
@@ -179,11 +179,11 @@ textarea {
   .nav-name {
     display: none;
   }
-ul a:hover{
-   background-color: hsl(229, 78%, 31%);
-   border-radius: 5px;
- box-shadow: 2px 2px 5px rgba(24, 22, 44, 0.5);
-}
+  ul a:hover {
+    background-color: hsl(229, 78%, 31%);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(24, 22, 44, 0.5);
+  }
   nav:hover {
     max-width: 170px;
   }
@@ -199,8 +199,7 @@ ul a:hover{
   }
   main {
     overflow: hidden;
-   margin-left: 5em;
+    margin-left: 5em;
   }
-  
 }
 /* transition: 500ms ease-in-out; */

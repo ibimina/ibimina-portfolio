@@ -54,6 +54,24 @@
   ],
   "projects": [
     {
+      "id": "recipe",
+      "name": "Aperiti",
+      "image": "./images/projects/cocktail-recipe.png",
+      "technologies": ["React", "REST API", "CSS"],
+      "description": "Aperiti is a catalog of mixed drinks recipes. Cocktail recipe come from thecocktaildb.com .Theme selector toggle between light and dark themes, responsive across devices",
+      "url": "https://ibimina.github.io/cocktail-recipes/",
+      "repo": "https://github.com/ibimina/cocktail-recipes"
+    },
+    {
+      "id": "minastore",
+      "name": "minastore",
+      "image": "./images/projects/minastore.png",
+      "technologies": ["React", "REST API", "CSS"],
+      "description": "Minastore is a makeup e-commerce site. Cosmetics products data come from makeup-api.herokuapp.com, also responsive across device",
+      "url": "https://ibimina.github.io/minastore/",
+      "repo": "https://github.com/ibimina/minastore"
+    },
+    {
       "id": "ics",
       "name": "interactive comment section",
       "image": "./images/projects/interacomment.png",
@@ -80,15 +98,7 @@
       "url": "https://ibimina.github.io/tip-calculator-app-main/",
       "repo": "https://github.com/ibimina/tip-calculator-app-main"
     },
-    {
-      "id": "recipe",
-      "name": "cocktail recipe",
-      "image": "./images/projects/cocktail-recipe.png",
-      "technologies": ["React", "REST API", "CSS"],
-      "description": "Aperiti is a catalog of mixed drinks recipes. Cocktail recipe come from thecocktaildb.com .Theme selector toggle between light and dark themes, responsive across devices",
-      "url": "https://ibimina.github.io/cocktail-recipes/",
-      "repo": "https://github.com/ibimina/cocktail-recipes"
-    },
+
     {
       "id": "selector",
       "name": "random country selector",
@@ -106,15 +116,7 @@
       "description": "Play rock paper sicssor game with a bot",
       "url": "https://ibimina.github.io/rock-paper-scissors-game/",
       "repo": "https://github.com/ibimina/rock-paper-scissors-game"
-    },
-    {
-      "id": "landing",
-      "name": "loopstudios",
-      "image": "./images/projects/loop.png",
-      "technologies": ["HTML", "CSS", "JS"],
-      "description": "A landing page for loopstudios.",
-      "url": "https://ibimina.github.io/loopstudio-lading-page/",
-      "repo": "https://github.com/ibimina/loopstudio-landing-page"
     }
+    
   ]
 }
