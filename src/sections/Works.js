@@ -16,14 +16,17 @@ export default function Works() {
             </figure>
             <div className="project-details">
               <h4>{project.name}</h4>
-              <div className="tech-con">
-                <p>Technologies used : </p>
-                {project.technologies.map((element) => (
-                  // <span key={element} className="tech">
-                  //   {element}
-                  // </span>
-                  <img src={element.image} alt={element.alt}  key={element.id}/>
-                ))}{" "}
+              <div className="tech-con ga">
+                <p>Technologies used:</p>
+                <div className="tech-con">
+                  {project.technologies.map((element) => (
+                    <img
+                      src={element.image}
+                      alt={element.alt}
+                      key={element.id}
+                    />
+                  ))}
+                </div>
               </div>
 
               <p className="desc">{project.description}</p>

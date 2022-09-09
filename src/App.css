@@ -97,6 +97,9 @@ form {
   display: flex;
   gap: 1em;
 }
+.ga{
+gap: .1em;
+}
 .desc {
   margin: 1em 0;
   font-family: 'Noto Serif Georgian', serif;
