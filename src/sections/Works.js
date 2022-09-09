@@ -19,9 +19,10 @@ export default function Works() {
               <div className="tech-con">
                 <p>Technologies used : </p>
                 {project.technologies.map((element) => (
-                  <span key={element} className="tech">
-                    {element}
-                  </span>
+                  // <span key={element} className="tech">
+                  //   {element}
+                  // </span>
+                  <img src={element.image} alt={element.alt}  key={element.id}/>
                 ))}{" "}
               </div>
 

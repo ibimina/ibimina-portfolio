@@ -82,19 +82,9 @@ margin-bottom: 3em;
 }
 .tech-con {
   display: flex;
+  align-items: center;
 }
-.tech {
-     color: hsl(221, 98%, 57%);
-  /* color: hsl(240, 50%, 30%); */
-  font-weight: 700;
-}
-.tech::after {
-  content: " , ";
-  /* margin-right: .2em; */
-}
-.tech-con :last-child::after {
-  content: ".";
-}
+
 h4 {
   text-transform: capitalize;
 }

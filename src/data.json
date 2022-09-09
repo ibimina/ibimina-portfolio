@@ -57,7 +57,23 @@
       "id": "recipe",
       "name": "Aperiti",
       "image": "./images/projects/cocktail-recipe.png",
-      "technologies": ["React", "REST API", "CSS"],
+      "technologies": [
+        {
+          "image": "./images/skills/react.svg",
+          "alt": "react logo",
+          "id": "r-react"
+        },
+        {
+          "image": "./images/skills/rest-api.png",
+          "alt": "rest api logo,",
+          "id": "r-api"
+        },
+        {
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "r-css"
+        }
+      ],
       "description": "Aperiti is a catalog of mixed drinks recipes. Cocktail recipe come from thecocktaildb.com .Theme selector toggle between light and dark themes, responsive across devices",
       "url": "https://ibimina.github.io/cocktail-recipes/",
       "repo": "https://github.com/ibimina/cocktail-recipes"
@@ -66,7 +82,23 @@
       "id": "minastore",
       "name": "minastore",
       "image": "./images/projects/minastore.png",
-      "technologies": ["React", "REST API", "CSS"],
+      "technologies": [
+        {
+          "image": "./images/skills/react.svg",
+          "alt": "react logo",
+          "id": "m-react"
+        },
+        {
+          "image": "./images/skills/rest-api.png",
+          "alt": "rest api logo,",
+          "id": "m-api"
+        },
+        {
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "m-css"
+        }
+      ],
       "description": "Minastore is a makeup e-commerce site. Cosmetics products data come from makeup-api.herokuapp.com, also responsive across device",
       "url": "https://ibimina.github.io/minastore/",
       "repo": "https://github.com/ibimina/minastore"
@@ -75,7 +107,24 @@
       "id": "ics",
       "name": "interactive comment section",
       "image": "./images/projects/interacomment.png",
-      "technologies": ["HTML", "CSS", "JS"],
+      "technologies": [
+        {
+          "image": "./images/skills/html5.svg",
+          "alt": "html5 logo",
+          "id": "i-htmls"
+        },
+
+        {
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "i-css"
+        },
+        {
+          "image": "./images/skills/javascript.svg",
+          "alt": "javascript logo",
+          "id": "ijs"
+        }
+      ],
       "description": "A CRUD comment section component built with Vanilla Javascript,data gotten from local JSON file. It allows user create,read,update and delete comments.",
       "url": "https://ibimina.github.io/interactive-comments-section-main/",
       "repo": "https://github.com/ibimina/interactive-comments-section-main"
@@ -84,7 +133,23 @@
       "id": "job",
       "name": "job listing",
       "image": "./images/projects/job-listing.png",
-      "technologies": ["HTML", "CSS", "JS"],
+      "technologies": [
+        {
+          "image": "./images/skills/html5.svg",
+          "alt": "html5 logo",
+          "id": "j-htmls"
+        },
+        {
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "j-css"
+        },
+        {
+          "image": "./images/skills/javascript.svg",
+          "alt": "javascript logo",
+          "id": "j-js"
+        }
+      ],
       "description": "A job listing web page that allows you search for job using skills. Job listing come from local JSON file.",
       "repo": "https://github.com/ibimina/static-job-listings-master",
       "url": "https://ibimina.github.io/static-job-listings-master/"
@@ -93,7 +158,24 @@
       "id": "tip",
       "name": "tip calculator",
       "image": "./images/projects/tip-calculator.png",
-      "technologies": ["HTML", "CSS", "JS"],
+      "technologies": [
+        {
+          "image": "./images/skills/html5.svg",
+          "alt": "html5 logo",
+          "id": "t-htmls"
+        },
+
+        {
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "t-css"
+        },
+        {
+          "image": "./images/skills/javascript.svg",
+          "alt": "javascript logo",
+          "id": "t-js"
+        }
+      ],
       "description": "Calculate the correct tip and total cost of the bill per person",
       "url": "https://ibimina.github.io/tip-calculator-app-main/",
       "repo": "https://github.com/ibimina/tip-calculator-app-main"
@@ -103,7 +185,15 @@
       "id": "selector",
       "name": "random country selector",
       "image": "./images/projects/random-country.png",
-      "technologies": ["CSS", "React"],
+      "technologies": [ {
+        "image": "./images/skills/css3.svg",
+        "alt": "css3 logo",
+        "id": "scss"
+      }, {
+        "image": "./images/skills/react.svg",
+        "alt": "react logo",
+        "id": "s-react"
+      }],
       "description": "Want to know more about countries of the world? Then click to generate a random country and learn more!",
       "url": "https://ibimina.github.io/travel-destination/",
       "repo": "https://github.com/ibimina/travel-destination"
@@ -112,11 +202,27 @@
       "id": "game",
       "name": "rock paper sicssors game",
       "image": "./images/projects/gamee.png",
-      "technologies": ["HTML", "CSS", "JS"],
+      "technologies": [
+        {
+          "image": "./images/skills/html5.svg",
+          "alt": "html5 logo",
+          "id":"ghtmls"
+        },
+
+        {
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "gcss"
+        },
+        {
+          "image": "./images/skills/javascript.svg",
+          "alt": "javascript logo",
+          "id": "gjs"
+        }
+      ],
       "description": "Play rock paper sicssor game with a bot",
       "url": "https://ibimina.github.io/rock-paper-scissors-game/",
       "repo": "https://github.com/ibimina/rock-paper-scissors-game"
     }
-    
   ]
 }

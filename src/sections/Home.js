@@ -1,5 +1,5 @@
-// import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
+//"homepage": "https://ibimina.github.io/ibimina-portfolio",
 export default function Home() {
   return (
     <>
@@ -23,32 +23,7 @@ export default function Home() {
           </p>
           <div className="social">
             {/* <button className="resume">Resume</button> */}
-            {/* <div className="icons">
-              <a
-                href="http://linked/in/ibimina-hart"
-                rel="noreferrer"
-                target="_blank"
-                className="social-link"
-              >
-                <FaLinkedin />
-              </a>
-              <a
-                href="http://github/ibimina"
-                rel="noreferrer"
-                target="_blank"
-                className="social-link"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="http://twitter.com/ibiminaaH"
-                target="_blank"
-                rel="noreferrer"
-                className="social-link"
-              >
-                <FaTwitter />
-              </a>
-            </div> */}
+         
           </div>
         </article>
       </section>
