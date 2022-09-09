@@ -2,7 +2,7 @@
 import data from "../data.json";
 export default function Skills() {
   return (
-    <div id="skills" className="margin">
+    <section id="skills" className="margin">
       <h2 className="uppercase abt">skills</h2>
       <div className="skill-set">
         {data &&
@@ -13,6 +13,6 @@ export default function Skills() {
             </figure>
           ))}
       </div>
-    </div>
+    </section>
   );
 }

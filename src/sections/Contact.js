@@ -14,14 +14,14 @@ export default function Contact() {
   }, [state.succeeded, navigateTo]);
 
   return (
-    <div id="contact">
+    <section id="contact">
       <div className="contact-link">
         <div>
           <h3 className="uppercase abt">Contact</h3>
           <p>
-            If you have any questions about me or my projects! I'm available to
-            grab a coffee and chat! or just want a quick chat - you can find me
-            on social media or you can send me a message here and thanks for
+            Do you have any questions about me or my projects? I'm available to
+            grab a coffee and chat! And if you just want a quick chat, then you can find me
+            on social media or simply can send me a message right here. Thanks for
             stopping by!
           </p>
         </div>
@@ -87,6 +87,6 @@ export default function Contact() {
         />
         {/* <input type="submit" value="SUBMIT" /> */}
       </form>
-    </div>
+    </section>
   );
 }

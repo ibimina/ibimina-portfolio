@@ -22,7 +22,7 @@ export default function About() {
         >
           Frontend Learning Group Women
         </a>
-        . I love problem-solving,team-work, and sharing ideas. You can bet that I enjoy those exciting moments when I finally succeed in solving any
+        .I love problem-solving, team-work, and sharing ideas. You can bet that I enjoy those exciting moments when I finally succeed in solving any
         problem.
       </p>
       <p>

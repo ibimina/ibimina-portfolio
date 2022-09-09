@@ -5,7 +5,7 @@ export default function Works() {
 
 
   return (
-    <div id="work" className="margin">
+    <section id="work" className="margin">
       <h3 className="uppercase abt">Projects</h3>
 
       {data &&
@@ -41,6 +41,6 @@ export default function Works() {
             </div>
           </article>
         ))}
-    </div>
+    </section>
   );
 }
