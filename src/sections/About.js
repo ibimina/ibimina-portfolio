@@ -3,7 +3,7 @@ export default function About() {
     <section id="about" className="margin">
       <h2 className="uppercase abt">About me</h2>
       <p className="intro">
-        I am self-motivated and passionate frontend developer currently enrolled
+        I am self-motivated and passionate Frontend Developer currently enrolled
         in
         <a
           href="https://www.altschoolafrica.com/"
@@ -13,22 +13,21 @@ export default function About() {
         >
           Altschool Africa
         </a>
-        and
+        <span> and </span>
         <a
           href="https://flgw.org/"
           rel="noreferrer"
           target="_blank"
           className="social-link"
         >
-          Frontend learning group women
+          Frontend Learning Group Women
         </a>
-        . I love problem-solving,working within a team and sharing ideas to find
-        a solution. I love those exciting moments when I finally solve a
+        . I love problem-solving,team-work, and sharing ideas. You can bet that I enjoy those exciting moments when I finally succeed in solving any
         problem.
       </p>
       <p>
-        Other than coding, I spend most of my free time playing cards games or
-        watching movies so feel free to reach out to me with any movie
+        Besides coding, I spend most of my free time playing cards games or
+        watching movies. So, feel free to reach out to me with any movie
         recommendations!
       </p>
     </section>

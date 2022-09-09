@@ -14,12 +14,12 @@ export default function Home() {
 
         <article>
           <p className="name">
-            Hello! I'm Ibimina{" "}
+            Hello! I'm Ibimina.{" "}
           </p>
 
           <p className="info">
             An enthusiastic frontend Developer with a passion for creating
-            immersive user experience and responsive web applications
+            immersive user experience and responsive web applications.
           </p>
           <div className="social">
             {/* <button className="resume">Resume</button> */}
