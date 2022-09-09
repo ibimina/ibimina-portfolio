@@ -1,14 +1,13 @@
 import React from "react";
-// import { useFetch } from "../hook/useFetch";
+
 import data from "../data.json"
 export default function Works() {
-  // const { data, isLoading, error } = useFetch();
+
 
   return (
-    <div id="work">
+    <div id="work" className="margin">
       <h3 className="uppercase abt">Projects</h3>
-      {/* {error && <>error...</>}
-      {isLoading && <>Loading</>} */}
+
       {data &&
         data.projects.map((project) => (
           <article key={project.id}>
