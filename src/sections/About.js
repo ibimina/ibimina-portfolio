@@ -5,14 +5,17 @@ export default function About() {
       <p className="intro">
         I am self-motivated and passionate Frontend Developer currently enrolled
         in
-        <a
-          href="https://www.altschoolafrica.com/"
-          rel="noreferrer"
-          target="_blank"
-          className="social-link"
-        >
-          Altschool Africa
-        </a>
+        <span>
+          {" "}
+          <a
+            href="https://www.altschoolafrica.com/"
+            rel="noreferrer"
+            target="_blank"
+            className="social-link"
+          >
+            Altschool Africa
+          </a>
+        </span>
         <span> and </span>
         <a
           href="https://flgw.org/"
@@ -20,9 +23,10 @@ export default function About() {
           target="_blank"
           className="social-link"
         >
-          Frontend Learning Group Women
+          Frontend Learning Group for Women
         </a>
-        .I love problem-solving, team-work, and sharing ideas. You can bet that I enjoy those exciting moments when I finally succeed in solving any
+        .I love problem-solving, team-work, and sharing ideas. You can bet that
+        I enjoy those exciting moments when I finally succeed in solving any
         problem.
       </p>
       <p>
