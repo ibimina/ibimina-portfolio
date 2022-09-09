@@ -1,5 +1,5 @@
 
-//"homepage": "https://ibimina.github.io/ibimina-portfolio",
+
 export default function Home() {
   return (
     <>

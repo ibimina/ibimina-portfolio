@@ -34,7 +34,7 @@
     {
       "image": "./images/skills/webaccessibility.png",
       "alt": "web accessibility logo",
-      "name": "accessibility"
+      "name": "Accessibility"
     },
     {
       "image": "./images/skills/visual-studio.svg",
@@ -44,12 +44,12 @@
     {
       "image": "./images/skills/responsive.png",
       "alt": "a responsive logo",
-      "name": "responsive"
+      "name": "Responsive"
     },
     {
       "image": "./images/skills/rest-api.png",
       "alt": "rest api logo,",
-      "name": "rest api"
+      "name": "REST API"
     }
   ],
   "projects": [
