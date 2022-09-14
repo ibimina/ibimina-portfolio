@@ -15,9 +15,8 @@ export default function Works() {
               <img src={project.image} alt={`${project.name} screenshot`} />
             </figure>
             <div className="project-details">
-              <h4>{project.name}</h4>
+              <h4 className="name">{project.name}</h4>
               <div className="tech-con ga">
-             
                 <div className="tech-con">
                   {project.technologies.map((element) => (
                     <img
@@ -29,7 +28,17 @@ export default function Works() {
                 </div>
               </div>
 
-              <p className="desc">{project.description}</p>
+              <p className="desc">
+                {project.description}{" "}
+                <a
+                  href={`http://${project.api}`}
+                  target="blank"
+                  rel="noreferrer"
+                >
+                  {project.api}
+                </a>
+                <span> {project.api ? "API." : ""}</span>
+              </p>
               <div className="link">
                 <a href={project.url} target="blank" rel="noreferrer">
                   Live

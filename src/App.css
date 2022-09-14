@@ -27,12 +27,13 @@
   border: 0;
   background-color: hsl(240, 84%, 38%);
   color: hsl(240, 18%, 93%);
-
   cursor: pointer;
 }
 .name{
   color: hsl(221, 98%, 57%);
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: .5em;
 }
 .icons {
   display: flex;
@@ -41,7 +42,6 @@
   gap: 2em;
 }
 .icons a {
-  /* color: hsl(240, 84%, 38%); */
    color: hsl(221, 98%, 57%);
   cursor: pointer;
   background-color: white;
@@ -150,6 +150,13 @@ textarea {
 .icons a:hover{
     color: hsl(221, 92%, 23%);
   transition: 500ms ease-in-out;
+}
+
+#work article{
+  padding: 1em;
+  background-color: #fff;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 10px;
 }
 @media (min-width: 40rem) {
   .skill-set {

@@ -64,7 +64,8 @@
           "id": "r-css"
         }
       ],
-      "description": "Aperiti is a catalog of mixed drinks recipes. Cocktail recipe come from thecocktaildb.com. Theme selector toggle between light and dark themes, responsive across devices",
+      "description": "Aperiti is a catalog of mixed drinks recipes. Theme selector toggle between light and dark themes, its also responsive across devices. Aperiti recipes are received from",
+     "api":"thecocktaildb.com",
       "url": "https://ibimina.github.io/cocktail-recipes/",
       "repo": "https://github.com/ibimina/cocktail-recipes"
     },
@@ -89,7 +90,8 @@
           "id": "m-css"
         }
       ],
-      "description": "Minastore is a makeup e-commerce site. Cosmetics products data come from makeup-api.herokuapp.com, also responsive across device",
+      "description": "Minastore is a responsive makeup e-commerce site. Minastore received data from ",
+      "api": "makeup-api.herokuapp.com",
       "url": "https://ibimina.github.io/minastore/",
       "repo": "https://github.com/ibimina/minastore"
     },
@@ -115,7 +117,7 @@
           "id": "ijs"
         }
       ],
-      "description": "A CRUD comment section component built with Vanilla Javascript,data gotten from local JSON file. It allows user create,read,update and delete comments.",
+      "description": "A CRUD comment section component built with Vanilla Javascript, data gotten from local JSON file. It allows user create, read, update and delete comments.",
       "url": "https://ibimina.github.io/interactive-comments-section-main/",
       "repo": "https://github.com/ibimina/interactive-comments-section-main"
     },
@@ -140,7 +142,7 @@
           "id": "j-js"
         }
       ],
-      "description": "A job listing web page that allows you search for job using skills. Job listing come from local JSON file.",
+      "description": "A job listings web page that allows user search for job using skills. Job listings come from local JSON file.",
       "repo": "https://github.com/ibimina/static-job-listings-master",
       "url": "https://ibimina.github.io/static-job-listings-master/"
     },
@@ -166,14 +168,14 @@
           "id": "t-js"
         }
       ],
-      "description": "Calculate the correct tip and total cost of the bill per person",
+      "description": "Calculate the correct tip and total cost of the bill per person.",
       "url": "https://ibimina.github.io/tip-calculator-app-main/",
       "repo": "https://github.com/ibimina/tip-calculator-app-main"
     },
 
     {
       "id": "selector",
-      "name": "random country selector",
+      "name": "random country generator",
       "image": "./images/projects/random-country.png",
       "technologies": [ {
         "image": "./images/skills/css3.svg",
