@@ -6,7 +6,7 @@ export default function Works() {
 
   return (
     <section id="work" className="margin">
-      <h3 className="uppercase abt">Projects</h3>
+      <h2 className="uppercase abt">Projects</h2>
 
       {data &&
         data.projects.map((project) => (
@@ -17,7 +17,7 @@ export default function Works() {
             <div className="project-details">
               <h4>{project.name}</h4>
               <div className="tech-con ga">
-                <p>Technologies used:</p>
+             
                 <div className="tech-con">
                   {project.technologies.map((element) => (
                     <img

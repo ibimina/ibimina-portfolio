@@ -15,7 +15,6 @@ const handleShow =()=>{
     <>
       <nav role="navigation" data-visible={show}>
         <h1 className="title">ib</h1>
-        {/* <nav role="navigation" data-visible={show}> */}
         <ul>
           <li onClick={() => setShow("false")}>
             <HashLink to="#home">

@@ -17,10 +17,10 @@ export default function Home() {
             Hello! I'm Ibimina.{" "}
           </p>
 
-          <p className="info">
+          {/* <p className="info">
             An enthusiastic frontend Developer with a passion for creating
             immersive user experience and responsive web applications.
-          </p>
+          </p> */}
           <div className="social">
             {/* <button className="resume">Resume</button> */}
          

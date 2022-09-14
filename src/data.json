@@ -37,16 +37,6 @@
       "name": "Accessibility"
     },
     {
-      "image": "./images/skills/visual-studio.svg",
-      "alt": "visual studio logo",
-      "name": "Visual studio"
-    },
-    {
-      "image": "./images/skills/responsive.png",
-      "alt": "a responsive logo",
-      "name": "Responsive"
-    },
-    {
       "image": "./images/skills/rest-api.png",
       "alt": "rest api logo,",
       "name": "REST API"
@@ -74,7 +64,7 @@
           "id": "r-css"
         }
       ],
-      "description": "Aperiti is a catalog of mixed drinks recipes. Cocktail recipe come from thecocktaildb.com .Theme selector toggle between light and dark themes, responsive across devices",
+      "description": "Aperiti is a catalog of mixed drinks recipes. Cocktail recipe come from thecocktaildb.com. Theme selector toggle between light and dark themes, responsive across devices",
       "url": "https://ibimina.github.io/cocktail-recipes/",
       "repo": "https://github.com/ibimina/cocktail-recipes"
     },

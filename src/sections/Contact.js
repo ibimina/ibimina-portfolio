@@ -17,7 +17,7 @@ export default function Contact() {
     <section id="contact">
       <div className="contact-link">
         <div>
-          <h3 className="uppercase abt">Contact</h3>
+          <h2 className="uppercase abt">Contact</h2>
           <p>
             Do you have any questions about me or my projects? I'm available to
             grab a coffee and chat! And if you just want a quick chat, then you can find me

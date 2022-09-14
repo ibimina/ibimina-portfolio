@@ -168,9 +168,13 @@ textarea {
 }
 @media (min-width: 60rem) {
   #home {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 2em;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* align-items: center; */
   }
   .info {
     text-align: left;
