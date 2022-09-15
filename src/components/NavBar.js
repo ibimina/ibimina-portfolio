@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaHome, FaUser, FaCode, FaShoppingBag, FaPhone } from "react-icons/fa";
 import { HashLink } from "react-router-hash-link";
-
+// "homepage": "https://ibimina.github.io/ibimina-portfolio",
 export default function NavBar() {
   const [show, setShow] = useState("false");
 const handleShow =()=>{

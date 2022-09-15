@@ -45,7 +45,7 @@
   "projects": [
     {
       "id": "recipe",
-      "name": "Aperiti",
+      "name": " Apéritif",
       "image": "./images/projects/cocktail-recipe.png",
       "technologies": [
         {
@@ -64,10 +64,10 @@
           "id": "r-css"
         }
       ],
-      "description": "Aperiti is a catalog of mixed drinks recipes. Theme selector toggle between light and dark themes, its also responsive across devices. Aperiti recipes are received from",
+      "description": " Apéritif is a catalog of mixed drinks recipes. Theme selector toggle between light and dark themes, it's also responsive across devices.  Apéritif recipes are received from",
      "api":"thecocktaildb.com",
-      "url": "https://ibimina.github.io/cocktail-recipes/",
-      "repo": "https://github.com/ibimina/cocktail-recipes"
+      "url": "https://ibimina.github.io/aperitif/",
+      "repo": "https://github.com/ibimina/aperitif"
     },
     {
       "id": "minastore",
