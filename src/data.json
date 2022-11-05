@@ -64,7 +64,7 @@
           "id": "r-css"
         }
       ],
-      "description": " Apéritif is a catalog of mixed drinks recipes. Theme selector toggle between light and dark themes, it's also responsive across devices.  Apéritif recipes are received from",
+      "description": " Apéritif is a catalog of mixed drinks recipes. Theme selector toggle between light and dark themes, it's also responsive across devices.  Apéritif recipes are consumes  from",
      "api":"thecocktaildb.com",
       "url": "https://ibimina.github.io/aperitif/",
       "repo": "https://github.com/ibimina/aperitif"
@@ -90,9 +90,9 @@
           "id": "m-css"
         }
       ],
-      "description": "Minastore is a responsive makeup e-commerce site. Minastore received data from ",
+      "description": "Minastore is a responsive makeup e-commerce site. Minastore consumes data from ",
       "api": "makeup-api.herokuapp.com",
-      "url": "https://ibimina.github.io/minastore/",
+      "url": "https://ibimina-minastore.netlify.app",
       "repo": "https://github.com/ibimina/minastore"
     },
     {
@@ -117,7 +117,7 @@
           "id": "ijs"
         }
       ],
-      "description": "A CRUD comment section component built with Vanilla Javascript, data gotten from local JSON file. It allows user create, read, update and delete comments.",
+      "description": "A CRUD comment section component built with Vanilla Javascript,consumes data from local JSON file. It allows user create, read, update and delete comments.",
       "url": "https://ibimina.github.io/interactive-comments-section-main/",
       "repo": "https://github.com/ibimina/interactive-comments-section-main"
     },
@@ -142,7 +142,7 @@
           "id": "j-js"
         }
       ],
-      "description": "A job listings web page that allows user search for job using skills. Job listings come from local JSON file.",
+      "description": "A job listings web page that allows user search for job using skills. Job listings consumes data from local JSON file.",
       "repo": "https://github.com/ibimina/static-job-listings-master",
       "url": "https://ibimina.github.io/static-job-listings-master/"
     },
