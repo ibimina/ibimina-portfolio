@@ -105,21 +105,19 @@ gap: .1em;
   font-family: 'Noto Serif Georgian', serif;
 }
 .thanks {
-  margin-top: 5em;
   background-color: white;
-  padding: 1em;
+  padding: 2em 1em;
   border-radius: 10px;
   text-align: center;
 }
-.thankyou {
+.thankyou,.res {
   margin-bottom: 0.5em;
-  /* font-size: 22px; */
 }
 .home {
-  padding: 0.5em;
-  /* border-radius: 10px; */
-  border: 0;
-  margin-top: 2em;
+  background-color: hsl(221, 98%, 57%);
+ color: #fff;
+ border: 0;
+ padding: 0.5em;
 }
 #contact p {
   margin-bottom: 1em;
@@ -158,6 +156,11 @@ textarea {
   border: 1px solid rgb(196, 193, 193);
   border-radius: 10px;
 }
+.thanks{
+  max-width: 360px;
+  width: 90%;
+}
+
 @media (min-width: 40rem) {
   .skill-set {
     grid-template-columns: repeat(4, 1fr);
