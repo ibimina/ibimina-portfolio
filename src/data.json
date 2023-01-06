@@ -65,7 +65,7 @@
         }
       ],
       "description": " Apéritif is a catalog of mixed drinks recipes. Theme selector toggle between light and dark themes, it's also responsive across devices.  Apéritif recipes are consumes  from",
-     "api":"thecocktaildb.com",
+      "api": "thecocktaildb.com",
       "url": "https://ibimina.github.io/aperitif/",
       "repo": "https://github.com/ibimina/aperitif"
     },
@@ -172,23 +172,25 @@
       "url": "https://ibimina.github.io/tip-calculator-app-main/",
       "repo": "https://github.com/ibimina/tip-calculator-app-main"
     },
-
     {
-      "id": "selector",
-      "name": "random country generator",
-      "image": "./images/projects/random-country.png",
-      "technologies": [ {
-        "image": "./images/skills/css3.svg",
-        "alt": "css3 logo",
-        "id": "scss"
-      }, {
-        "image": "./images/skills/react.svg",
-        "alt": "react logo",
-        "id": "s-react"
-      }],
+      "id": "altexam",
+      "name": "IBrepolist",
+      "image": "./images/projects/ibrepo.png",
+      "technologies": [
+        {
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "ibcss"
+        },
+        {
+          "image": "./images/skills/react.svg",
+          "alt": "react logo",
+          "id": "ib-react"
+        }
+      ],
       "description": "Want to know more about countries of the world? Then click to generate a random country and learn more!",
-      "url": "https://ibimina.github.io/random-country-generator/",
-      "repo": "https://github.com/ibimina/random-country-generator"
+      "url": "https://ibimina.github.io/altschool-frontend-exam/",
+      "repo": "https://ibimina-alt-exam.netlify.app"
     },
     {
       "id": "game",
@@ -198,9 +200,8 @@
         {
           "image": "./images/skills/html5.svg",
           "alt": "html5 logo",
-          "id":"ghtmls"
+          "id": "ghtmls"
         },
-
         {
           "image": "./images/skills/css3.svg",
           "alt": "css3 logo",
