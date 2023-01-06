@@ -31,7 +31,7 @@ export default function Works() {
               <p className="desc">
                 {project.description}{" "}
                 <a
-                  href={`http://${project.api}`}
+                  href={`https://${project.api}`}
                   target="blank"
                   rel="noreferrer"
                 >

@@ -194,7 +194,7 @@
         }
       ],
       "description": "A website that showcase my GitHub profile, a list of repositories, a brief description of each repository, and a GitHub user search function. It consumes data from",
-      "api": "docs.github.com",
+      "api": "docs.github.com/en/rest",
       "url": "https://ibimina.github.io/altschool-frontend-exam/",
       "repo": "https://ibimina-alt-exam.netlify.app"
     },
