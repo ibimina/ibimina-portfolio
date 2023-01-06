@@ -193,7 +193,8 @@
           "id": "ib-react"
         }
       ],
-      "description": "A GitHub website that features my profile, a list of repositories, a brief description of each repository, and a GitHub user search function.",
+      "description": "A website that showcase my GitHub profile, a list of repositories, a brief description of each repository, and a GitHub user search function. It consumes data from",
+      "api": "docs.github.com",
       "url": "https://ibimina.github.io/altschool-frontend-exam/",
       "repo": "https://ibimina-alt-exam.netlify.app"
     },
