@@ -183,12 +183,17 @@
           "id": "ibcss"
         },
         {
+          "image": "./images/skills/rest-api.png",
+          "alt": "rest api logo,",
+          "id": "ib-api"
+        },
+        {
           "image": "./images/skills/react.svg",
           "alt": "react logo",
           "id": "ib-react"
         }
       ],
-      "description": "Want to know more about countries of the world? Then click to generate a random country and learn more!",
+      "description": "A GitHub website that features my profile, a list of repositories, a brief description of each repository, and a GitHub user search function.",
       "url": "https://ibimina.github.io/altschool-frontend-exam/",
       "repo": "https://ibimina-alt-exam.netlify.app"
     },
