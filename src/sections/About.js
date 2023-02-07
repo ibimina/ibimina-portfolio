@@ -1,9 +1,6 @@
-
-// "homepage": "https://ibimina.github.io/ibimina-portfolio",
 export default function About() {
   return (
     <section id="about" className="margin">
-      {/* <h2 className="uppercase abt">About me</h2> */}
       <p className="intro">
         I am self-motivated and passionate Frontend Developer currently enrolled
         in
