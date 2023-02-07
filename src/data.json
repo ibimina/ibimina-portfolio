@@ -1,3 +1,4 @@
+
 {
   "skills": [
     {
@@ -19,6 +20,11 @@
       "image": "./images/skills/react.svg",
       "alt": "react logo",
       "name": "ReactJs"
+    },
+    {
+      "image": "./images/skills/vue.png",
+      "alt": "vue logo",
+      "name": "Vuejs"
     },
     { "image": "./images/skills/git.svg", "alt": "git logo", "name": "Git" },
     {
@@ -147,14 +153,14 @@
       "url": "https://ibimina.github.io/static-job-listings-master/"
     },
     {
-      "id": "tip",
-      "name": "tip calculator",
-      "image": "./images/projects/tip-calculator.png",
+      "id": "cowr",
+      "name": "Unsplash clone",
+      "image": "./images/projects/unsplash.png",
       "technologies": [
         {
-          "image": "./images/skills/html5.svg",
-          "alt": "html5 logo",
-          "id": "t-htmls"
+          "image": "./images/skills/vue.png",
+          "alt": "vue logo",
+          "id": "t-vue"
         },
 
         {
@@ -163,14 +169,15 @@
           "id": "t-css"
         },
         {
-          "image": "./images/skills/javascript.svg",
-          "alt": "javascript logo",
-          "id": "t-js"
+          "image": "./images/skills/rest-api.png",
+          "alt": "rest api logo,",
+          "id": "r-api"
         }
       ],
-      "description": "Calculate the correct tip and total cost of the bill per person.",
-      "url": "https://ibimina.github.io/tip-calculator-app-main/",
-      "repo": "https://github.com/ibimina/tip-calculator-app-main"
+      "description": "A mini unsplash clone using the.",
+      "api": "https://api.unsplash.com",
+      "url": "https://ibimina-cowrywise-test.netlify.app/",
+      "repo": "https://github.com/ibimina/cowrywise-tes"
     },
     {
       "id": "altexam",
