@@ -26,6 +26,16 @@
       "alt": "vue logo",
       "name": "Vuejs"
     },
+    {
+      "image": "./images/skills/nextjs.png",
+      "alt": "Nextjs logo",
+      "name": "Nextjs"
+    },
+    {
+      "image": "./images/skills/typescript.png",
+      "alt": "TypeScript logo",
+      "name": "TypeScript"
+    },
     { "image": "./images/skills/git.svg", "alt": "git logo", "name": "Git" },
     {
       "image": "./images/skills/terminal.png",
@@ -50,32 +60,6 @@
   ],
   "projects": [
     {
-      "id": "recipe",
-      "name": " Apéritif",
-      "image": "./images/projects/cocktail-recipe.png",
-      "technologies": [
-        {
-          "image": "./images/skills/react.svg",
-          "alt": "react logo",
-          "id": "r-react"
-        },
-        {
-          "image": "./images/skills/rest-api.png",
-          "alt": "rest api logo,",
-          "id": "r-api"
-        },
-        {
-          "image": "./images/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "r-css"
-        }
-      ],
-      "description": " Apéritif is a catalog of mixed drinks recipes. Theme selector toggle between light and dark themes, it's also responsive across devices.  Apéritif recipes are consumes  from",
-      "api": "thecocktaildb.com",
-      "url": "https://ibimina.github.io/aperitif/",
-      "repo": "https://github.com/ibimina/aperitif"
-    },
-    {
       "id": "minastore",
       "name": "minastore",
       "image": "./images/projects/minastore.png",
@@ -96,61 +80,10 @@
           "id": "m-css"
         }
       ],
-      "description": "Minastore is a responsive makeup e-commerce site. Minastore consumes data from ",
+      "description": "Minastore is a responsive web app that allows users to search for makeup products by keyword. It consumes data from",
       "api": "makeup-api.herokuapp.com",
       "url": "https://ibimina-minastore.netlify.app",
       "repo": "https://github.com/ibimina/minastore"
-    },
-    {
-      "id": "ics",
-      "name": "interactive comment section",
-      "image": "./images/projects/interacomment.png",
-      "technologies": [
-        {
-          "image": "./images/skills/html5.svg",
-          "alt": "html5 logo",
-          "id": "i-htmls"
-        },
-
-        {
-          "image": "./images/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "i-css"
-        },
-        {
-          "image": "./images/skills/javascript.svg",
-          "alt": "javascript logo",
-          "id": "ijs"
-        }
-      ],
-      "description": "A CRUD comment section component built with Vanilla Javascript,consumes data from local JSON file. It allows user create, read, update and delete comments.",
-      "url": "https://ibimina.github.io/interactive-comments-section-main/",
-      "repo": "https://github.com/ibimina/interactive-comments-section-main"
-    },
-    {
-      "id": "job",
-      "name": "job listing",
-      "image": "./images/projects/job-listing.png",
-      "technologies": [
-        {
-          "image": "./images/skills/html5.svg",
-          "alt": "html5 logo",
-          "id": "j-htmls"
-        },
-        {
-          "image": "./images/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "j-css"
-        },
-        {
-          "image": "./images/skills/javascript.svg",
-          "alt": "javascript logo",
-          "id": "j-js"
-        }
-      ],
-      "description": "A job listings web page that allows user search for job using skills. Job listings consumes data from local JSON file.",
-      "repo": "https://github.com/ibimina/static-job-listings-master",
-      "url": "https://ibimina.github.io/static-job-listings-master/"
     },
     {
       "id": "cowr",
@@ -174,36 +107,88 @@
           "id": "r-api"
         }
       ],
-      "description": "A mini unsplash clone using the.",
+      "description": "Unsplash clone is a responsive web app that allows users to search for images by keyword. It consumes data from ",
       "api": "https://api.unsplash.com",
       "url": "https://ibimina-cowrywise-test.netlify.app/",
       "repo": "https://github.com/ibimina/cowrywise-tes"
     },
     {
-      "id": "altexam",
-      "name": "IBrepolist",
-      "image": "./images/projects/ibrepo.png",
+      "id": "rest",
+      "name": "Where in the world?",
+      "image": "./images/projects/rest.png",
       "technologies": [
+        {
+          "image": "./images/skills/nextjs.png",
+          "alt": "nextjs logo",
+          "id": "r-next"
+        },
         {
           "image": "./images/skills/css3.svg",
           "alt": "css3 logo",
-          "id": "ibcss"
+          "id": "j-css"
+        },
+        {
+          "image": "./images/skills/typescript.png",
+          "alt": "TypeScript logo",
+          "id": "ts"
+        }
+      ],
+      "description": "Where in the World? is a responsive web app with a search bar that allows users to search for countries by name, it also displays the country's flag, capital, population, region and subregion. It consumes data from",
+      "api": "restcountries.com",
+      "repo": "https://github.com/ibimina/rest-countries",
+      "url": "https://rest-countries-gules.vercel.app/"
+    },
+    {
+      "id": "recipe",
+      "name": " Apéritif",
+      "image": "./images/projects/cocktail-recipe.png",
+      "technologies": [
+        {
+          "image": "./images/skills/react.svg",
+          "alt": "react logo",
+          "id": "r-react"
         },
         {
           "image": "./images/skills/rest-api.png",
           "alt": "rest api logo,",
-          "id": "ib-api"
+          "id": "r-api"
         },
         {
-          "image": "./images/skills/react.svg",
-          "alt": "react logo",
-          "id": "ib-react"
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "r-css"
         }
       ],
-      "description": "A website that showcase my GitHub profile, a list of repositories, a brief description of each repository, and a GitHub user search function. It consumes data from",
-      "api": "docs.github.com/en/rest",
-      "url": "https://ibimina.github.io/altschool-frontend-exam/",
-      "repo": "https://ibimina-alt-exam.netlify.app"
+      "description": " Apéritif is a responsive web app that allows users to search for cocktail recipes by keyword. It consumes data from ",
+      "api": "thecocktaildb.com",
+      "url": "https://ibimina.github.io/aperitif/",
+      "repo": "https://github.com/ibimina/aperitif"
+    },
+    {
+      "id": "ics",
+      "name": "interactive comment section",
+      "image": "./images/projects/interacomment.png",
+      "technologies": [
+        {
+          "image": "./images/skills/html5.svg",
+          "alt": "html5 logo",
+          "id": "i-htmls"
+        },
+
+        {
+          "image": "./images/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "i-css"
+        },
+        {
+          "image": "./images/skills/javascript.svg",
+          "alt": "javascript logo",
+          "id": "ijs"
+        }
+      ],
+      "description": "Interactive comment section is a responsive web app that allows users to post comments, edit and delete them and also reply to other comments.",
+      "url": "https://ibimina.github.io/interactive-comments-section-main/",
+      "repo": "https://github.com/ibimina/interactive-comments-section-main"
     },
     {
       "id": "game",
@@ -226,7 +211,7 @@
           "id": "gjs"
         }
       ],
-      "description": "Play rock paper sicssor game with a bot",
+      "description": "Rock paper scissors game is a responsive web app that allows users to play the rock paper scissors game against the computer.",
       "url": "https://ibimina.github.io/rock-paper-scissors-game/",
       "repo": "https://github.com/ibimina/rock-paper-scissors-game"
     }
