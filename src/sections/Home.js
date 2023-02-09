@@ -13,17 +13,16 @@ export default function Home() {
         </figure>
 
         <article>
-          <p className="name">
-            Hello! I'm Ibimina.{" "}
-          </p>
-
-          {/* <p className="info">
-            An enthusiastic frontend Developer with a passion for creating
-            immersive user experience and responsive web applications.
-          </p> */}
+          <p className="name">Hello! I'm Ibimina. </p>
           <div className="social">
-            {/* <button className="resume">Resume</button> */}
-         
+            <a
+              href="/images/Ibimina_HART_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume"
+            >
+              Resume
+            </a>
           </div>
         </article>
       </section>
