@@ -28,6 +28,7 @@
   background-color: hsl(240, 84%, 38%);
   color: hsl(240, 18%, 93%);
   cursor: pointer;
+  text-decoration: none;
 }
 .name{
   color: hsl(221, 98%, 57%);
