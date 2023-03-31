@@ -1,25 +1,27 @@
-
-
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      <section id="home">
+      <section id={styles.home}>
         <figure>
-          <img
-            src="./images/ibimina.png"
+          <Image
+           width={150}
+           height={150}
+            src="/ibimina.png"
             alt="ibimina hart avatar"
-            className="avatar"
+            className={styles.avatar}
           />
         </figure>
 
         <article>
-          <p className="name">Hello! I'm Ibimina. </p>
-          <div className="social">
+          <p className={styles.name}>Hello! I'm Ibimina. </p>
+          <div className={styles.social}>
             <a
               href="/images/Ibimina_HART_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="resume"
+              className={styles.resume}
             >
               Resume
             </a>

@@ -1,48 +1,45 @@
 import { useState } from "react";
 import { FaHome, FaUser, FaCode, FaShoppingBag, FaPhone } from "react-icons/fa";
-import { HashLink } from "react-router-hash-link";
-// "homepage": "https://ibimina.github.io/ibimina-portfolio",
+
 export default function NavBar() {
-  const [show, setShow] = useState("false");
-const handleShow =()=>{
-  if (show==="false") {
-    setShow("true")
-  } else {
-    setShow("false")
+  const [show, setShow] = useState(false);
+  const handleShow = () => {
+    if (show === false) {
+      setShow(true)
+    } else {
+      setShow(false)
+    }
   }
-}
   return (
     <>
       <nav role="navigation" data-visible={show}>
         <h1 className="title">ib</h1>
         <ul>
-          <li onClick={() => setShow("false")}>
-            <HashLink to="#home">
-              <FaHome /> <span className="nav-name"> home</span>
-            </HashLink>
+          <li onClick={() => setShow(false)}>
+            <a href="#home"> <FaHome /> <span className="nav-name"> home</span></a>
           </li>
-          <li onClick={() => setShow("false")}>
-            <HashLink to="#about">
+          <li onClick={() => setShow(false)}>
+            <a href="#about">
               <FaUser /> <span className="nav-name">about</span>
-            </HashLink>
+            </a>
           </li>
-          <li onClick={() => setShow("false")}>
-            <HashLink to="#skills">
+          <li onClick={() => setShow(false)}>
+            <a href="#skills">
               {" "}
               <FaCode /> <span className="nav-name"> skills</span>
-            </HashLink>{" "}
+            </a>{" "}
           </li>
-          <li onClick={() => setShow("false")}>
-            <HashLink to="#work">
+          <li onClick={() => setShow(false)}>
+            <a href="#work">
               <FaShoppingBag />
               <span className="nav-name"> projects</span>
-            </HashLink>
+            </a>
           </li>
-          <li onClick={() => setShow("false")}>
-            <HashLink to="#contact">
+          <li onClick={() => setShow(false)}>
+            <a href="#contact">
               <FaPhone />
               <span className="nav-name">contact</span>
-            </HashLink>
+            </a>
           </li>
         </ul>
       </nav>

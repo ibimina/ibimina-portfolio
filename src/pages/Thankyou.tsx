@@ -1,11 +1,10 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-export default function Thankyou() {
-  const nav = useNavigate();
-  const handleSubmit = (e) => {
-    e.preventDefault();
+import { useRouter } from "next/router";
 
-    nav("/");
+export default function Thankyou() {
+  const router = useRouter();
+  const handleSubmit = () => {
+ router.push("/")
+  ;
   };
   return (
     <div className="thanks">
