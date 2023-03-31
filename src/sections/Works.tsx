@@ -10,7 +10,7 @@ export default function Works() {
         data.projects.map((project) => (
           <article key={project.id}>
             <figure className={styles.project}>
-              <Image width={600} height={280} src={project.image} alt={`${project.name} screenshot`} />
+              <Image width={600} height={350} src={project.image} alt={`${project.name} screenshot`} />
             </figure>
             <div className="project-details">
               <h4 className={styles.name}>{project.name}</h4>
@@ -18,7 +18,7 @@ export default function Works() {
                 <div className={styles.tech_con}>
                   {project.technologies.map((element) => (
                     <Image
-                      width={35}
+                      width={30}
                       height={30}
                       src={element.image}
                       alt={element.alt}
