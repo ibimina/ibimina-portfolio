@@ -37,11 +37,7 @@
       "name": "TypeScript"
     },
     { "image": "/skills/git.svg", "alt": "git logo", "name": "Git" },
-    {
-      "image": "/skills/terminal.png",
-      "alt": "terminal logo",
-      "name": "Terminal"
-    },
+   
     {
       "image": "/skills/firebase.svg",
       "alt": "firebase logo",
@@ -113,56 +109,31 @@
       "repo": "https://github.com/ibimina/cowrywise-tes"
     },
     {
-      "id": "rest",
-      "name": "Where in the world?",
-      "image": "/projects/rest.png",
+      "id": "Invoice",
+      "name": " Bill",
+      "image": "/projects/invoice.png",
       "technologies": [
         {
           "image": "/skills/nextjs.png",
-          "alt": "nextjs logo",
-          "id": "r-next"
+          "alt": "Nextjs logo",
+          "id": "invoicenext"
         },
-        {
-          "image": "/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "j-css"
-        },
-        {
-          "image": "/skills/typescript.png",
-          "alt": "TypeScript logo",
-          "id": "ts"
-        }
-      ],
-      "description": "Where in the World? is a responsive web app with a search bar that allows users to search for countries by name, it also displays the country's flag, capital, population, region and subregion. It consumes data from",
-      "api": "restcountries.com",
-      "repo": "https://github.com/ibimina/rest-countries",
-      "url": "https://rest-countries-gules.vercel.app/"
-    },
-    {
-      "id": "recipe",
-      "name": " Apéritif",
-      "image": "/projects/cocktail-recipe.png",
-      "technologies": [
-        {
-          "image": "/skills/react.svg",
-          "alt": "react logo",
-          "id": "r-react"
-        },
-        {
-          "image": "/skills/rest-api.png",
-          "alt": "rest api logo,",
-          "id": "r-api"
-        },
+         {
+           "image": "/skills/typescript.png",
+           "alt": "TypeScript logo",
+           "id": "r-typescript"
+         }
+        ,
+       
         {
           "image": "/skills/css3.svg",
           "alt": "css3 logo",
           "id": "r-css"
         }
       ],
-      "description": " Apéritif is a responsive web app that allows users to search for cocktail recipes by keyword. It consumes data from ",
-      "api": "thecocktaildb.com",
-      "url": "https://ibimina.github.io/aperitif/",
-      "repo": "https://github.com/ibimina/aperitif"
+      "description":"An Invoice app that allows users to create, edit and delete invoices.",
+      "url": "https://bill-two.vercel.app/",
+      "repo": "https://github.com/ibimina/bill"
     },
     {
       "id": "ics",
