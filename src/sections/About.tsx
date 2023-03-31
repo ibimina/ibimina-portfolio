@@ -1,6 +1,7 @@
+import styles from '../styles/about.module.css'
 export default function About() {
   return (
-    <section id="about" className="margin">
+    <section id={styles.about} className="margin">
       <p className="intro">
         I am self-motivated and passionate Frontend Developer currently enrolled
         in

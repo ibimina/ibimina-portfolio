@@ -1,0 +1,50 @@
+#home {
+    text-align: center;
+    margin: 2em 0;
+}
+.avatar {
+    background-color: hsl(52, 27%, 38%);
+    
+    border-radius: 50%;
+    width: 150px;
+    display: inline;
+}
+.social {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.resume {
+    padding: 0.7em 1em;
+    border-radius: 25px;
+    border: 0;
+    background-color: hsl(240, 84%, 38%);
+    color: hsl(240, 18%, 93%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.name {
+    color: hsl(221, 98%, 57%);
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: .5em;
+}
+@media (min-width: 60rem) {
+    #home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .info {
+        text-align: left;
+    }
+
+    .intro {
+        text-align: left;
+    }
+}

@@ -1,20 +1,22 @@
 import { FaLinkedin, FaGithub, FaTwitter,FaEnvelope } from "react-icons/fa";
 import { useForm, ValidationError } from "@formspree/react";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import styles from "../styles/contact.module.css";
+
+import { useRouter } from "next/router";
 export default function Contact() {
-  const navigateTo = useNavigate();
+  const navigateTo = useRouter();
 
   const [state, handleSubmit] = useForm("xqkjkvkj");
 
   useEffect(() => {
     if (state.succeeded) {
-      navigateTo("/thankyou");
+      navigateTo.push("/thankyou");
     }
   }, [state.succeeded, navigateTo]);
 
   return (
-    <section id="contact">
+    <section id={styles.contact}>
       <div className="contact-link">
         <div>
           <h2 className="uppercase abt">Contact</h2>
@@ -25,8 +27,7 @@ export default function Contact() {
             stopping by!
           </p>
         </div>
-        {/* <div className="social"> */}{" "}
-        <div className="icons">
+        <div className={styles.icons}>
           <a
             href="ibimina.c.hart@gmail.com"
             target="_blank"
@@ -60,19 +61,20 @@ export default function Contact() {
             <FaTwitter />
           </a>
         </div>
-        {/* </div> */}
+     
       </div>
-      <form method="POST" onSubmit={handleSubmit}>
-        {/* <form netlify name="contact" onSubmit={handleSubmitt}> */}
+      <form method="POST" onSubmit={handleSubmit} className={styles.form}>
+       
         <input type="text" name="name" id="name" placeholder="name" />
         <input type="text" name="subject" id="subject" placeholder="subject" />
         <input type="email" name="email" id="email" placeholder="email" />
         <textarea
           name="message"
           id="message"
-          cols="30"
-          rows="10"
+          cols={30}
+          rows={10}
           placeholder="your message"
+          className={styles.message}
         ></textarea>
         <ValidationError
           prefix="Message"
@@ -83,9 +85,8 @@ export default function Contact() {
           type="submit"
           disabled={state.submitting}
           value="SUBMIT"
-          className="submit"
+          className={styles.submit}
         />
-        {/* <input type="submit" value="SUBMIT" /> */}
       </form>
     </section>
   );

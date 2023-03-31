@@ -2,58 +2,58 @@
 {
   "skills": [
     {
-      "image": "./images/skills/html5.svg",
+      "image": "/skills/html5.svg",
       "alt": "html5 logo",
       "name": "HTML5"
     },
     {
-      "image": "./images/skills/css3.svg",
+      "image": "/skills/css3.svg",
       "alt": "css3 logo",
       "name": "CSS3"
     },
     {
-      "image": "./images/skills/javascript.svg",
+      "image": "/skills/javascript.svg",
       "alt": "javascript logo",
       "name": "JS"
     },
     {
-      "image": "./images/skills/react.svg",
+      "image": "/skills/react.svg",
       "alt": "react logo",
       "name": "ReactJs"
     },
     {
-      "image": "./images/skills/vue.png",
+      "image": "/skills/vue.png",
       "alt": "vue logo",
       "name": "Vuejs"
     },
     {
-      "image": "./images/skills/nextjs.png",
+      "image": "/skills/nextjs.png",
       "alt": "Nextjs logo",
       "name": "Nextjs"
     },
     {
-      "image": "./images/skills/typescript.png",
+      "image": "/skills/typescript.png",
       "alt": "TypeScript logo",
       "name": "TypeScript"
     },
-    { "image": "./images/skills/git.svg", "alt": "git logo", "name": "Git" },
+    { "image": "/skills/git.svg", "alt": "git logo", "name": "Git" },
     {
-      "image": "./images/skills/terminal.png",
+      "image": "/skills/terminal.png",
       "alt": "terminal logo",
       "name": "Terminal"
     },
     {
-      "image": "./images/skills/firebase.svg",
+      "image": "/skills/firebase.svg",
       "alt": "firebase logo",
       "name": "Firebase"
     },
     {
-      "image": "./images/skills/webaccessibility.png",
+      "image": "/skills/webaccessibility.png",
       "alt": "web accessibility logo",
       "name": "Accessibility"
     },
     {
-      "image": "./images/skills/rest-api.png",
+      "image": "/skills/rest-api.png",
       "alt": "rest api logo,",
       "name": "REST API"
     }
@@ -62,20 +62,20 @@
     {
       "id": "minastore",
       "name": "minastore",
-      "image": "./images/projects/minastore.png",
+      "image": "/projects/minastore.png",
       "technologies": [
         {
-          "image": "./images/skills/react.svg",
+          "image": "/skills/react.svg",
           "alt": "react logo",
           "id": "m-react"
         },
         {
-          "image": "./images/skills/rest-api.png",
+          "image": "/skills/rest-api.png",
           "alt": "rest api logo,",
           "id": "m-api"
         },
         {
-          "image": "./images/skills/css3.svg",
+          "image": "/skills/css3.svg",
           "alt": "css3 logo",
           "id": "m-css"
         }
@@ -88,21 +88,21 @@
     {
       "id": "cowr",
       "name": "Unsplash clone",
-      "image": "./images/projects/unsplash.png",
+      "image": "/projects/unsplash.png",
       "technologies": [
         {
-          "image": "./images/skills/vue.png",
+          "image": "/skills/vue.png",
           "alt": "vue logo",
           "id": "t-vue"
         },
 
         {
-          "image": "./images/skills/css3.svg",
+          "image": "/skills/css3.svg",
           "alt": "css3 logo",
           "id": "t-css"
         },
         {
-          "image": "./images/skills/rest-api.png",
+          "image": "/skills/rest-api.png",
           "alt": "rest api logo,",
           "id": "r-api"
         }
@@ -115,20 +115,20 @@
     {
       "id": "rest",
       "name": "Where in the world?",
-      "image": "./images/projects/rest.png",
+      "image": "/projects/rest.png",
       "technologies": [
         {
-          "image": "./images/skills/nextjs.png",
+          "image": "/skills/nextjs.png",
           "alt": "nextjs logo",
           "id": "r-next"
         },
         {
-          "image": "./images/skills/css3.svg",
+          "image": "/skills/css3.svg",
           "alt": "css3 logo",
           "id": "j-css"
         },
         {
-          "image": "./images/skills/typescript.png",
+          "image": "/skills/typescript.png",
           "alt": "TypeScript logo",
           "id": "ts"
         }
@@ -141,20 +141,20 @@
     {
       "id": "recipe",
       "name": " Apéritif",
-      "image": "./images/projects/cocktail-recipe.png",
+      "image": "/projects/cocktail-recipe.png",
       "technologies": [
         {
-          "image": "./images/skills/react.svg",
+          "image": "/skills/react.svg",
           "alt": "react logo",
           "id": "r-react"
         },
         {
-          "image": "./images/skills/rest-api.png",
+          "image": "/skills/rest-api.png",
           "alt": "rest api logo,",
           "id": "r-api"
         },
         {
-          "image": "./images/skills/css3.svg",
+          "image": "/skills/css3.svg",
           "alt": "css3 logo",
           "id": "r-css"
         }
@@ -167,21 +167,21 @@
     {
       "id": "ics",
       "name": "interactive comment section",
-      "image": "./images/projects/interacomment.png",
+      "image": "/projects/interacomment.png",
       "technologies": [
         {
-          "image": "./images/skills/html5.svg",
+          "image": "/skills/html5.svg",
           "alt": "html5 logo",
           "id": "i-htmls"
         },
 
         {
-          "image": "./images/skills/css3.svg",
+          "image": "/skills/css3.svg",
           "alt": "css3 logo",
           "id": "i-css"
         },
         {
-          "image": "./images/skills/javascript.svg",
+          "image": "/skills/javascript.svg",
           "alt": "javascript logo",
           "id": "ijs"
         }
@@ -193,20 +193,20 @@
     {
       "id": "game",
       "name": "rock paper sicssors game",
-      "image": "./images/projects/gamee.png",
+      "image": "/projects/gamee.png",
       "technologies": [
         {
-          "image": "./images/skills/html5.svg",
+          "image": "/skills/html5.svg",
           "alt": "html5 logo",
           "id": "ghtmls"
         },
         {
-          "image": "./images/skills/css3.svg",
+          "image": "/skills/css3.svg",
           "alt": "css3 logo",
           "id": "gcss"
         },
         {
-          "image": "./images/skills/javascript.svg",
+          "image": "/skills/javascript.svg",
           "alt": "javascript logo",
           "id": "gjs"
         }

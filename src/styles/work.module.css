@@ -1,0 +1,65 @@
+#work{
+    margin-bottom: 3em;
+}
+.project {
+    margin-bottom: 1em;
+}
+.desc {
+    margin: 1em 0;
+    font-family: 'Noto Serif Georgian', serif;
+}
+.link {
+    display: flex;
+    gap: 1em;
+}
+.uppercase {
+    text-transform: uppercase;
+margin-bottom: 2em;
+    font-family: 'Leckerli One', cursive;
+}
+#work article {
+    margin-bottom: 3em;
+}
+
+.project img {
+    border-radius: 10px;
+}
+
+.tech_con {
+    display: flex;
+    align-items: center;
+}
+
+.techstack {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.name {
+    color: hsl(221, 98%, 57%);
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: .5em;
+    text-transform: capitalize;
+}
+
+@media (min-width: 40rem) {
+    #work article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        text-align: right;
+    }
+
+    .tech_con,
+    .link {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 60rem) {
+    .project {
+        margin-bottom: 0;
+    }
+}
