@@ -9,7 +9,7 @@ export default function Skills() {
         {data &&
           data.skills.map((skill) => (
             <figure key={skill.name}>
-              <Image width={70} height={70} src={skill.image} alt={skill.alt} />
+              <Image width={30} height={30} src={skill.image} alt={skill.alt} />
               <figcaption>{skill.name}</figcaption>
             </figure>
           ))}
