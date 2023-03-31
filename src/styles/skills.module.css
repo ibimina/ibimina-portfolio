@@ -1,0 +1,36 @@
+.margin {
+    margin-bottom: 3em;
+}
+.uppercase {
+    text-transform: uppercase;
+        margin-bottom: 2em;
+            font-family: 'Leckerli One', cursive;
+}
+.skill_set {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    align-items: baseline;
+    text-align: center;
+    gap: 1em;
+}
+
+.skill_set img {
+    display: inline;
+}
+@media (min-width: 40rem) {
+    .skill_set {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+@media (min-width: 60rem) {
+
+    .skill_set {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+   
+
+}
