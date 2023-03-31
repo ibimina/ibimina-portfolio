@@ -56,14 +56,45 @@
   ],
   "projects": [
     {
-      "id": "minastore",
-      "name": "minastore",
-      "image": "/projects/minastore.png",
+      "id": "Invoice",
+      "name": " Bill",
+      "image": "/projects/invoice.png",
       "technologies": [
         {
-          "image": "/skills/react.svg",
-          "alt": "react logo",
-          "id": "m-react"
+          "image": "/skills/nextjs.png",
+          "alt": "Nextjs logo",
+          "id": "invoicenext"
+        },
+        {
+          "image": "/skills/typescript.png",
+          "alt": "TypeScript logo",
+          "id": "r-typescript"
+        },
+        {
+          "image": "/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "r-css"
+        }
+      ],
+      "description": "An Invoice app that allows users to create, edit and delete invoices.",
+      "url": "https://bill-two.vercel.app/",
+      "repo": "https://github.com/ibimina/bill"
+    },
+
+    {
+      "id": "Buy",
+      "name": "Buy",
+      "image": "/projects/buy.png",
+      "technologies": [
+        {
+          "image": "/skills/vue.png",
+          "alt": "vue logo",
+          "id": "m-vue"
+        },
+        {
+          "image": "/skills/typescript.png",
+          "alt": "TypeScript logo",
+          "id": "m-typescript"
         },
         {
           "image": "/skills/rest-api.png",
@@ -76,10 +107,10 @@
           "id": "m-css"
         }
       ],
-      "description": "Minastore is a responsive web app that allows users to search for makeup products by keyword. It consumes data from",
-      "api": "makeup-api.herokuapp.com",
-      "url": "https://ibimina-minastore.netlify.app",
-      "repo": "https://github.com/ibimina/minastore"
+      "description": "Buy is a responsive web app that allows users to search for products by keyword and also filter them by category. It consumes data from",
+      "api": "dummyjson.com",
+      "url": "https://buy-two.vercel.app/",
+      "repo": "https://github.com/ibimina/buy"
     },
     {
       "id": "cowr",
@@ -107,33 +138,6 @@
       "api": "https://api.unsplash.com",
       "url": "https://ibimina-cowrywise-test.netlify.app/",
       "repo": "https://github.com/ibimina/cowrywise-tes"
-    },
-    {
-      "id": "Invoice",
-      "name": " Bill",
-      "image": "/projects/invoice.png",
-      "technologies": [
-        {
-          "image": "/skills/nextjs.png",
-          "alt": "Nextjs logo",
-          "id": "invoicenext"
-        },
-         {
-           "image": "/skills/typescript.png",
-           "alt": "TypeScript logo",
-           "id": "r-typescript"
-         }
-        ,
-       
-        {
-          "image": "/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "r-css"
-        }
-      ],
-      "description":"An Invoice app that allows users to create, edit and delete invoices.",
-      "url": "https://bill-two.vercel.app/",
-      "repo": "https://github.com/ibimina/bill"
     },
     {
       "id": "ics",
