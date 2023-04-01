@@ -18,7 +18,7 @@ export default function Home() {
           <p className={styles.name}>Hello! I'm Ibimina. </p>
           <div className={styles.social}>
             <a
-              href="/images/Ibimina_HART_CV.pdf"
+              href="/Ibimina_HART_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.resume}
