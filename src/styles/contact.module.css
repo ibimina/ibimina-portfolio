@@ -1,4 +1,4 @@
-#contact p {
+.contact p {
     margin-bottom: 1em;
 }
 
@@ -61,7 +61,7 @@
 }
 
 @media (min-width: 60rem) {
-    #contact {
+    .contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2em;

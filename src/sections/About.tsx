@@ -1,10 +1,8 @@
 import styles from '../styles/about.module.css'
 export default function About() {
   return (
-    <section id={styles.about} className="margin">
-      <p className="intro">
-        I am self-motivated and passionate Frontend Developer currently enrolled
-        in
+    <section id="about" className={styles.about}>
+      <p className={styles.margin}>"Hi there! I'm a student at 
         <span>
           {" "}
           <a
@@ -13,29 +11,14 @@ export default function About() {
             target="_blank"
             className="social-link"
           >
-            Altschool Africa
+            Altschool Africa    {" "} {" "}
           </a>
+          {" "}
         </span>
-        <span> and </span>
-        <span>
-          <a
-            href="https://flgw.org/"
-            rel="noreferrer"
-            target="_blank"
-            className="social-link"
-          >
-            Frontend Learning Group for Women
-          </a>
-        </span>
-        . I love problem-solving, team-work, and sharing ideas. You can bet that
-        I enjoy those exciting moments when I finally succeed in solving any
-        problem.
-      </p>
-      <p>
-        Besides coding, I spend most of my free time playing cards games or
-        watching movies. So, feel free to reach out to me with any movie
-        recommendations!
-      </p>
-    </section>
+        <span>currently learning web development.</span> 
+      </p> 
+      <p className={styles.margin}>I enjoy creating visually stunning and engaging web experiences. My passion for making things and the challenge of bringing a design concept to life motivate me.</p>
+      <p>I'm most likely to be found playing card games or watching movies when I'm not coding. So please contact me if you have any movie recommendations!</p>
+         </section>
   );
 }
