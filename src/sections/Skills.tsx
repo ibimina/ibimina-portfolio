@@ -3,7 +3,7 @@ import data from "../data.json";
 import Image from "next/image";
 export default function Skills() {
   return (
-    <section id={styles.skill} className={styles.margin}>
+    <section id='skills'  className={styles.margin}>
       <h2 className={styles.uppercase}>skills</h2>
       <div className={styles.skill_set}>
         {data &&

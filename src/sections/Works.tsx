@@ -3,7 +3,7 @@ import styles from "../styles/work.module.css"
 import Image from "next/image"
 export default function Works() {
   return (
-    <section id={styles.work}>
+    <section id='work' className={styles.work}>
       <h2 className={styles.uppercase}>Projects</h2>
 
       {data &&

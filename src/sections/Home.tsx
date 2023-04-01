@@ -3,7 +3,7 @@ import styles from "../styles/home.module.css";
 export default function Home() {
   return (
     <>
-      <section id={styles.home}>
+      <section id='home' className={styles.home}>
         <figure>
           <Image
            width={150}

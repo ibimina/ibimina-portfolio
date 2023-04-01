@@ -1,4 +1,4 @@
-#work{
+.work{
     margin-bottom: 3em;
 }
 .project {
@@ -17,7 +17,7 @@
 margin-bottom: 2em;
     font-family: 'Leckerli One', cursive;
 }
-#work article {
+.work article {
     margin-bottom: 3em;
 }
 
@@ -45,7 +45,7 @@ margin-bottom: 2em;
 }
 
 @media (min-width: 40rem) {
-    #work article {
+    .work article {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1em;

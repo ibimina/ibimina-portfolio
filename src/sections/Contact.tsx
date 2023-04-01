@@ -11,12 +11,12 @@ export default function Contact() {
 
   useEffect(() => {
     if (state.succeeded) {
-      navigateTo.push("/thankyou");
+      navigateTo.push("/Thankyou");
     }
   }, [state.succeeded, navigateTo]);
 
   return (
-    <section id={styles.contact}>
+    <section id='contact' className={styles.contact}>
       <div className="contact-link">
         <div>
           <h2 className="uppercase abt">Contact</h2>
