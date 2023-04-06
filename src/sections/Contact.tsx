@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaTwitter,FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from "react-icons/fa";
 import { useForm, ValidationError } from "@formspree/react";
 import { useEffect } from "react";
 import styles from "../styles/contact.module.css";
@@ -29,15 +29,16 @@ export default function Contact() {
         </div>
         <div className={styles.icons}>
           <a
-            href="ibimina.c.hart@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="social-link"
-          >
+            href="mailto: ibimina.c.hart@gmail.com">
+
+
             <FaEnvelope />
           </a>
           <a
-            href="http://linked/in/ibimina-hart"
+            href="https://linked/in/ibimina-hart"
             rel="noreferrer"
             target="_blank"
             className="social-link"
@@ -45,7 +46,7 @@ export default function Contact() {
             <FaLinkedin />
           </a>
           <a
-            href="http://github/ibimina"
+            href="https://github/ibimina"
             rel="noreferrer"
             target="_blank"
             className="social-link"
@@ -53,7 +54,7 @@ export default function Contact() {
             <FaGithub />
           </a>
           <a
-            href="http://twitter.com/ibiminaaH"
+            href="https://twitter.com/ibiminaaH"
             target="_blank"
             rel="noreferrer"
             className="social-link"
@@ -61,10 +62,10 @@ export default function Contact() {
             <FaTwitter />
           </a>
         </div>
-     
+
       </div>
       <form method="POST" onSubmit={handleSubmit} className={styles.form}>
-       
+
         <input type="text" name="name" id="name" placeholder="name" />
         <input type="text" name="subject" id="subject" placeholder="subject" />
         <input type="email" name="email" id="email" placeholder="email" />
