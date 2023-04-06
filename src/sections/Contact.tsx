@@ -38,7 +38,7 @@ export default function Contact() {
             <FaEnvelope />
           </a>
           <a
-            href="https://linked/in/ibimina-hart"
+            href="https://linked.com/in/ibimina-hart"
             rel="noreferrer"
             target="_blank"
             className="social-link"
@@ -46,7 +46,7 @@ export default function Contact() {
             <FaLinkedin />
           </a>
           <a
-            href="https://github/ibimina"
+            href="https://github.com/ibimina"
             rel="noreferrer"
             target="_blank"
             className="social-link"
