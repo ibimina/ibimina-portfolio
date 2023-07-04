@@ -7,6 +7,15 @@ import NavBar from "../components/NavBar";
 
 import styles from '../styles/index.module.css'
 export default function Portfolio() {
+  // write a short description about inkspire
+  //Inskpire is a platform that allows writers to
+  //share their work with the world and get feedback
+  //from other writers and readers.
+  //Inskspire is a platform like hashnode or medium
+  //Inskspire is a platform that allows writers to
+  //share their work with the world and get feedback
+  //from other writers and readers.
+  
   return (
     <>
       <NavBar />
