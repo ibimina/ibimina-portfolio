@@ -1,4 +1,3 @@
-
 {
   "skills": [
     {
@@ -37,7 +36,7 @@
       "name": "TypeScript"
     },
     { "image": "/skills/git.svg", "alt": "git logo", "name": "Git" },
-   
+
     {
       "image": "/skills/firebase.svg",
       "alt": "firebase logo",
@@ -80,7 +79,36 @@
       "url": "https://bill-two.vercel.app/",
       "repo": "https://github.com/ibimina/bill"
     },
-
+    {
+      "id":"inkSpire",
+      "name": "inkSpire",
+      "image": "/projects/inkspire.png",
+      "technologies": [
+        {
+          "image": "/skills/nextjs.png",
+          "alt": "react logo",
+          "id": "inkreact"
+        },
+        {
+          "image": "/skills/typescript.png",
+          "alt": "TypeScript logo",
+          "id": "inktypescript"
+        },
+        {
+          "image": "/skills/css3.svg",
+          "alt": "css3 logo",
+          "id": "inkcss"
+        },
+        {
+          "image": "/skills/firebase.svg",
+          "alt": "firebase logo",
+          "id": "inkfirebase"
+        }
+      ],
+      "description":"InskSpire is a responsive web app that allows users to create, edit and delete articles and share them to the world and get feedback from other users",
+        "url": "https://ibimina-chatter.vercel.app/",
+      "repo": "https://github.com/ibimina/ibimina-chatter"
+    },
     {
       "id": "Buy",
       "name": "Buy",
@@ -138,32 +166,6 @@
       "api": "https://api.unsplash.com",
       "url": "https://ibimina-cowrywise-test.netlify.app/",
       "repo": "https://github.com/ibimina/cowrywise-tes"
-    },
-    {
-      "id": "ics",
-      "name": "interactive comment section",
-      "image": "/projects/interacomment.png",
-      "technologies": [
-        {
-          "image": "/skills/html5.svg",
-          "alt": "html5 logo",
-          "id": "i-htmls"
-        },
-
-        {
-          "image": "/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "i-css"
-        },
-        {
-          "image": "/skills/javascript.svg",
-          "alt": "javascript logo",
-          "id": "ijs"
-        }
-      ],
-      "description": "Interactive comment section is a responsive web app that allows users to post comments, edit and delete them and also reply to other comments.",
-      "url": "https://ibimina.github.io/interactive-comments-section-main/",
-      "repo": "https://github.com/ibimina/interactive-comments-section-main"
     },
     {
       "id": "game",

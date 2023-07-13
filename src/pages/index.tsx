@@ -6,7 +6,7 @@ import Works from "../sections/Works";
 import NavBar from "../components/NavBar";
 
 import styles from '../styles/index.module.css'
-export default function Portfolio() {
+export default function Portfolio() {  
   return (
     <>
       <NavBar />
