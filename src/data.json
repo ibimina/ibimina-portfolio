@@ -108,64 +108,6 @@
       "description":"InskSpire is a responsive web app that allows users to create, edit and delete articles and share them to the world and get feedback from other users",
         "url": "https://ibimina-chatter.vercel.app/",
       "repo": "https://github.com/ibimina/ibimina-chatter"
-    },
-    {
-      "id": "Buy",
-      "name": "Buy",
-      "image": "/projects/buy.png",
-      "technologies": [
-        {
-          "image": "/skills/vue.png",
-          "alt": "vue logo",
-          "id": "m-vue"
-        },
-        {
-          "image": "/skills/typescript.png",
-          "alt": "TypeScript logo",
-          "id": "m-typescript"
-        },
-        {
-          "image": "/skills/rest-api.png",
-          "alt": "rest api logo,",
-          "id": "m-api"
-        },
-        {
-          "image": "/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "m-css"
-        }
-      ],
-      "description": "Buy is a responsive web app that allows users to search for products by keyword and also filter them by category. It consumes data from",
-      "api": "dummyjson.com",
-      "url": "https://buy-two.vercel.app/",
-      "repo": "https://github.com/ibimina/buy"
-    },
-    {
-      "id": "cowr",
-      "name": "Unsplash clone",
-      "image": "/projects/unsplash.png",
-      "technologies": [
-        {
-          "image": "/skills/vue.png",
-          "alt": "vue logo",
-          "id": "t-vue"
-        },
-
-        {
-          "image": "/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "t-css"
-        },
-        {
-          "image": "/skills/rest-api.png",
-          "alt": "rest api logo,",
-          "id": "r-api"
-        }
-      ],
-      "description": "Unsplash clone is a responsive web app that allows users to search for images by keyword. It consumes data from ",
-      "api": "https://api.unsplash.com",
-      "url": "https://ibimina-cowrywise-test.netlify.app/",
-      "repo": "https://github.com/ibimina/cowrywise-tes"
     }
   ]
 }
