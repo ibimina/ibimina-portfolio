@@ -30,14 +30,14 @@ export default function Works() {
 
               <p className={styles.desc}>
                 {project.description}{" "}
-                <a
-                  href={`https://${project.api}`}
+                {/* <a
+                  href={`https://${project?.api}`}
                   target="blank"
                   rel="noreferrer"
                 >
-                  {project.api}
+                  {project?.api}
                 </a>
-                <span> {project.api ? "API." : ""}</span>
+                <span> {project?.api ? "API." : ""}</span> */}
               </p>
               <div className={styles.link}>
                 <a href={project.url} target="blank" rel="noreferrer">
