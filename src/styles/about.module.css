@@ -1,6 +1,16 @@
-  .about{
-    margin-bottom: 2em;
-  }
-  .margin{
-        margin-bottom: 0.5em;
-  }
+.about {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+}
+
+.about p {
+  line-height: 1.8;
+}
+
+.margin {
+  margin-bottom: 1rem;
+}

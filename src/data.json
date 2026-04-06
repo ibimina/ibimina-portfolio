@@ -1,6 +1,5 @@
 {
-  "skills": 
-  [
+  "skills": [
     {
       "image": "/skills/html5.svg",
       "alt": "html5 logo",
@@ -22,92 +21,150 @@
       "name": "ReactJs"
     },
     {
-      "image": "/skills/vue.png",
-      "alt": "vue logo",
-      "name": "Vuejs"
-    },
-    {
       "image": "/skills/nextjs.png",
       "alt": "Nextjs logo",
-      "name": "Nextjs"
+      "name": "Next.js"
     },
     {
       "image": "/skills/typescript.png",
       "alt": "TypeScript logo",
       "name": "TypeScript"
     },
-    { "image": "/skills/git.svg", "alt": "git logo", "name": "Git" },
-
+    {
+      "image": "/skills/tailwind.svg",
+      "alt": "Tailwind CSS logo",
+      "name": "Tailwind"
+    },
+    {
+      "image": "/skills/nodejs.svg",
+      "alt": "Node.js logo",
+      "name": "Node.js"
+    },
+    {
+      "image": "/skills/git.svg",
+      "alt": "git logo",
+      "name": "Git"
+    },
+    {
+      "image": "/skills/github-actions.svg",
+      "alt": "GitHub Actions logo",
+      "name": "CI/CD"
+    },
+    {
+      "image": "/skills/aws.svg",
+      "alt": "AWS logo",
+      "name": "AWS"
+    },
     {
       "image": "/skills/firebase.svg",
       "alt": "firebase logo",
       "name": "Firebase"
     },
     {
-      "image": "/skills/webaccessibility.png",
-      "alt": "web accessibility logo",
-      "name": "Accessibility"
-    },
-    {
       "image": "/skills/rest-api.png",
-      "alt": "rest api logo,",
+      "alt": "rest api logo",
       "name": "REST API"
     }
   ],
   "projects": [
     {
-      "id": "Invoice",
-      "name": " Bill",
-      "image": "/projects/invoice.png",
+      "id": "invoice-generator",
+      "name": "Invoice Generator",
+      "image": "/projects/invoice-generator.png",
       "technologies": [
         {
           "image": "/skills/nextjs.png",
-          "alt": "Nextjs logo",
-          "id": "invoicenext"
+          "alt": "Next.js logo",
+          "id": "ig-next"
         },
         {
           "image": "/skills/typescript.png",
           "alt": "TypeScript logo",
-          "id": "r-typescript"
+          "id": "ig-ts"
         },
         {
-          "image": "/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "r-css"
+          "image": "/skills/tailwind.svg",
+          "alt": "Tailwind CSS logo",
+          "id": "ig-tailwind"
         }
       ],
-      "description": "An Invoice app that allows users to create, edit and delete invoices.",
-      "url": "https://bill-two.vercel.app/",
-      "repo": "https://github.com/ibimina/bill"
+      "description": "A free, privacy-first invoice and quotation generator. Create professional documents with 17+ templates, download as PDF — no signup required.",
+      "url": "https://invoice-generator-nine-vert.vercel.app/",
+      "repo": "https://github.com/ibimina/invoice-generator"
     },
     {
-      "id":"inkSpire",
-      "name": "inkSpire",
+      "id": "streamline-suite",
+      "name": "Streamline Suite",
+      "image": "/projects/streamline.png",
+      "technologies": [
+        {
+          "image": "/skills/nextjs.png",
+          "alt": "Next.js logo",
+          "id": "ss-next"
+        },
+        {
+          "image": "/skills/typescript.png",
+          "alt": "TypeScript logo",
+          "id": "ss-ts"
+        },
+        {
+          "image": "/skills/tailwind.svg",
+          "alt": "Tailwind CSS logo",
+          "id": "ss-tailwind"
+        }
+      ],
+      "description": "A comprehensive financial management platform for businesses. Manage invoices, expenses, inventory, payroll, and analytics in one place.",
+      "url": "https://streamline-suite-fe.vercel.app/",
+      "repo": "https://github.com/ibimina/streamline-suite-fe"
+    },
+    {
+      "id": "colorsketch",
+      "name": "ColorSketch",
+      "image": "/projects/colorsketch.png",
+      "technologies": [
+        {
+          "image": "/skills/nextjs.png",
+          "alt": "Next.js logo",
+          "id": "cs-next"
+        },
+        {
+          "image": "/skills/typescript.png",
+          "alt": "TypeScript logo",
+          "id": "cs-ts"
+        },
+        {
+          "image": "/skills/tailwind.svg",
+          "alt": "Tailwind CSS logo",
+          "id": "cs-tailwind"
+        }
+      ],
+      "description": "A real-time collaborative drawing application. Create, share, and draw together with friends using an intuitive canvas interface.",
+      "url": "https://colorsketch.vercel.app/",
+      "repo": "https://github.com/ibimina/colorsketch"
+    },
+    {
+      "id": "inkSpire",
+      "name": "InkSpire",
       "image": "/projects/inkspire.png",
       "technologies": [
         {
           "image": "/skills/nextjs.png",
-          "alt": "react logo",
-          "id": "inkreact"
+          "alt": "Next.js logo",
+          "id": "ink-next"
         },
         {
           "image": "/skills/typescript.png",
           "alt": "TypeScript logo",
-          "id": "inktypescript"
-        },
-        {
-          "image": "/skills/css3.svg",
-          "alt": "css3 logo",
-          "id": "inkcss"
+          "id": "ink-ts"
         },
         {
           "image": "/skills/firebase.svg",
-          "alt": "firebase logo",
-          "id": "inkfirebase"
+          "alt": "Firebase logo",
+          "id": "ink-firebase"
         }
       ],
-      "description":"InskSpire is a responsive web app that allows users to create, edit and delete articles and share them to the world and get feedback from other users",
-        "url": "https://ibimina-chatter.vercel.app/",
+      "description": "A blogging platform where users can create, edit, and share articles with the world and receive feedback from readers.",
+      "url": "https://ibimina-chatter.vercel.app/",
       "repo": "https://github.com/ibimina/ibimina-chatter"
     }
   ]

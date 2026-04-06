@@ -23,7 +23,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className={styles.resume}
             >
-              Resume
+              Résumé
             </a>
           </div>
         </article>

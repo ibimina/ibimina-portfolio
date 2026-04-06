@@ -1,50 +1,76 @@
 .home {
-    text-align: center;
-    margin: 2em 0;
+  text-align: center;
+  margin: 3rem 0;
+  padding: 2rem 0;
 }
+
 .avatar {
-    background-color: hsl(52, 27%, 38%);
-    
-    border-radius: 50%;
-    width: 150px;
-    display: inline;
+  background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  object-fit: cover;
+  box-shadow: var(--shadow-lg);
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition);
 }
+
+.avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+}
+
 .social {
-    margin-top: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
+
 .resume {
-    padding: 0.7em 1em;
-    border-radius: 25px;
-    border: 0;
-    background-color: hsl(240, 84%, 38%);
-    color: hsl(240, 18%, 93%);
-    cursor: pointer;
-    text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: 0;
+  background-color: var(--color-primary);
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  transition: all var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.resume:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .name {
-    color: hsl(221, 98%, 57%);
-    font-weight: 900;
-    font-size: 24px;
-    margin-bottom: .5em;
+  font-family: "Playfair Display", serif;
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
 }
+
 @media (min-width: 60rem) {
-    .home {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2em;
-    }
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
 
-    .info {
-        text-align: left;
-    }
+  .info {
+    text-align: left;
+  }
 
-    .intro {
-        text-align: left;
-    }
+  .intro {
+    text-align: left;
+  }
 }

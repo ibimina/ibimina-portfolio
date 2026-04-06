@@ -1,70 +1,100 @@
 .contact p {
-    margin-bottom: 1em;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-secondary);
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .form input {
-    padding: 1em;
-    display: block;
-    margin-bottom: 1em;
-    border-radius: 10px;
-    border: 1px solid black;
-    outline: none;
-}
-.message {
-    border-radius: 10px;
-    padding: 2em;
-    outline: none;
-}
-.form input:focus,.message:focus {
-  
-    border: 1px solid hsl(221, 98%, 57%);
+  padding: 0.875rem 1rem;
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+  background: var(--color-surface);
+  transition:
+    border-color var(--transition),
+    box-shadow var(--transition);
 }
 
+.message {
+  border-radius: 8px;
+  padding: 0.875rem 1rem;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  resize: vertical;
+  min-height: 120px;
+  transition:
+    border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+.form input:focus,
+.message:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
 
 .submit {
-    background-color: hsl(221, 98%, 57%);
-    cursor: pointer;
-    color: white;
-    margin-top: 2em;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  color: white;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  padding: 0.875rem 1.5rem;
+  border: none;
+  transition: all var(--transition);
 }
 
 .submit:hover {
-    background-color: hsl(221, 66%, 14%);
-    transition: 500ms ease-in-out;
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .icons a {
-    color: hsl(221, 98%, 57%);
-    cursor: pointer;
-    background-color: white;
-    padding: 0.2em 0.5em 0em;
-    border-radius: 5px;
-    text-align: justify;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  background-color: var(--color-surface);
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  transition: all var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icons a:hover {
-    color: hsl(221, 92%, 23%);
-    transition: 500ms ease-in-out;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
 }
 
 @media (min-width: 60rem) {
-    .contact {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2em;
-    }
-
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
 }

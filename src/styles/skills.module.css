@@ -1,36 +1,60 @@
 .margin {
-    margin-bottom: 3em;
+  margin-bottom: 4rem;
 }
-.uppercase {
-    text-transform: uppercase;
-        margin-bottom: 2em;
-            font-family: 'Leckerli One', cursive;
-}
-.skill_set {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
 
-    align-items: baseline;
-    text-align: center;
-    gap: 1em;
+.uppercase {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  color: var(--color-text);
+  text-transform: none;
+}
+
+.skill_set {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.skill_set figure {
+  padding: 1rem;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  transition: all var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.skill_set figure:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
 }
 
 .skill_set img {
-    display: inline;
+  display: inline;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 0.5rem;
 }
-@media (min-width: 40rem) {
-    .skill_set {
-        grid-template-columns: repeat(4, 1fr);
-    }
 
+.skill_set figcaption {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+@media (min-width: 40rem) {
+  .skill_set {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (min-width: 60rem) {
-
-    .skill_set {
-        grid-template-columns: repeat(6, 1fr);
-    }
-
-   
-
+  .skill_set {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
