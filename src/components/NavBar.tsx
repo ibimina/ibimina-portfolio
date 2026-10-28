@@ -1,55 +1,33 @@
 import { useState } from "react";
-import { FaHome, FaUser, FaCode, FaShoppingBag, FaPhone } from "react-icons/fa";
+import styles from "./nav.module.css";
 
 export default function NavBar() {
   const [show, setShow] = useState(false);
-  const handleShow = () => {
-    if (show === false) {
-      setShow(true)
-    } else {
-      setShow(false)
-    }
-  }
+
   return (
-    <>
-      <nav role="navigation" data-visible={show}>
-        <h1 className="title">ib</h1>
-        <ul>
-          <li onClick={() => setShow(false)}>
-            <a href="#home"> <FaHome /> <span className="nav-name"> home</span></a>
-          </li>
-          <li onClick={() => setShow(false)}>
-            <a href="#about">
-              <FaUser /> <span className="nav-name">about</span>
-            </a>
-          </li>
-          <li onClick={() => setShow(false)}>
-            <a href="#skills">
-              {" "}
-              <FaCode /> <span className="nav-name"> skills</span>
-            </a>{" "}
-          </li>
-          <li onClick={() => setShow(false)}>
-            <a href="#work">
-              <FaShoppingBag />
-              <span className="nav-name"> projects</span>
-            </a>
-          </li>
-          <li onClick={() => setShow(false)}>
-            <a href="#contact">
-              <FaPhone />
-              <span className="nav-name">contact</span>
-            </a>
-          </li>
-        </ul>
+    <header className={styles.header}>
+      <a className={styles.brand} href="#home" aria-label="Ibimina Hart, home">
+        <span className={styles.monogram}>IH</span>
+        <span>Ibimina Hart</span>
+      </a>
+      <nav id="main-navigation" className={`${styles.navigation} ${show ? styles.open : ""}`} aria-label="Main navigation">
+        <a href="#about" onClick={() => setShow(false)}>About</a>
+        <a href="#skills" onClick={() => setShow(false)}>Expertise</a>
+        <a href="#work" onClick={() => setShow(false)}>Selected work</a>
+        <a className={styles.contactLink} href="#contact" onClick={() => setShow(false)}>
+          Let&apos;s talk <span aria-hidden="true">↗</span>
+        </a>
       </nav>
       <button
-        className="mobile-navigation"
-        onClick={handleShow}
+        className={styles.menuButton}
+        onClick={() => setShow(!show)}
         aria-expanded={show}
+        aria-controls="main-navigation"
+        aria-label={show ? "Close navigation" : "Open navigation"}
       >
-        <span className="sr-only">menu</span>
+        <span />
+        <span />
       </button>
-    </>
+    </header>
   );
 }

@@ -17,16 +17,12 @@ export default function Contact() {
 
   return (
     <section id='contact' className={styles.contact}>
-      <div className="contact-link">
-        <div>
-          <h2 className="uppercase abt">Contact</h2>
-          <p>
-            Do you have any questions about me or my projects? I'm available to
-            grab a coffee and chat! And if you just want a quick chat, then you can find me
-            on social media or simply can send me a message right here. Thanks for
-            stopping by!
-          </p>
-        </div>
+      <div className={styles.contactCopy}>
+        <p className={styles.eyebrow}>The next good thing starts here</p>
+        <h2 className={styles.heading}>Have a good one in mind?</h2>
+        <p className={styles.description}>
+          Have a project, a question, or just want to say hello? I&apos;d love to hear from you.
+        </p>
         <div className={styles.icons}>
           <a
             target="_blank"
@@ -66,15 +62,16 @@ export default function Contact() {
       </div>
       <form method="POST" onSubmit={handleSubmit} className={styles.form}>
 
-        <input type="text" name="name" id="name" placeholder="name" />
-        <input type="text" name="subject" id="subject" placeholder="subject" />
-        <input type="email" name="email" id="email" placeholder="email" />
+        <input type="text" name="name" id="name" placeholder="Name" aria-label="Name" />
+        <input type="text" name="subject" id="subject" placeholder="Subject" aria-label="Subject" />
+        <input type="email" name="email" id="email" placeholder="Email address" aria-label="Email address" />
         <textarea
           name="message"
           id="message"
           cols={30}
           rows={10}
-          placeholder="your message"
+          placeholder="Your message"
+          aria-label="Your message"
           className={styles.message}
         ></textarea>
         <ValidationError
@@ -85,7 +82,7 @@ export default function Contact() {
         <input
           type="submit"
           disabled={state.submitting}
-          value="SUBMIT"
+          value={state.submitting ? "SENDING..." : "SEND MESSAGE"}
           className={styles.submit}
         />
       </form>

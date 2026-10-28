@@ -1,0 +1,139 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  width: min(1120px, calc(100% - 48px));
+  height: 82px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--color-border);
+  background: rgb(243 245 239 / 92%);
+  backdrop-filter: blur(14px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-text);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.monogram {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  background: var(--color-ink);
+  color: var(--color-accent);
+  font-size: 13px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.navigation a {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: var(--color-primary);
+}
+
+.navigation .contactLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--color-text);
+}
+
+.contactLink span {
+  color: var(--color-primary);
+  font-size: 17px;
+}
+
+.menuButton {
+  position: relative;
+  display: none;
+  width: 42px;
+  height: 42px;
+  align-content: center;
+  justify-items: center;
+  gap: 5px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  cursor: pointer;
+}
+
+.menuButton span {
+  position: absolute;
+  width: 17px;
+  height: 2px;
+  background: var(--color-text);
+  transition: transform var(--transition);
+}
+
+.menuButton span:first-child {
+  transform: translateY(-3px);
+}
+
+.menuButton span:last-child {
+  transform: translateY(3px);
+}
+
+.menuButton[aria-expanded="true"] span:first-child {
+  transform: rotate(45deg);
+}
+
+.menuButton[aria-expanded="true"] span:last-child {
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 700px) {
+  .header {
+    width: calc(100% - 36px);
+    height: 72px;
+  }
+
+  .menuButton {
+    display: grid;
+    z-index: 2;
+  }
+
+  .navigation {
+    position: absolute;
+    top: 62px;
+    right: 0;
+    left: 0;
+    display: none;
+    align-items: stretch;
+    gap: 0;
+    padding: 10px 18px;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+  }
+
+  .navigation.open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation a {
+    padding: 13px 0;
+  }
+
+  .navigation a + a {
+    border-top: 1px solid var(--color-border);
+  }
+}

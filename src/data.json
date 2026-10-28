@@ -21,6 +21,11 @@
       "name": "ReactJs"
     },
     {
+      "image": "/skills/react.svg",
+      "alt": "React Native logo",
+      "name": "React Native"
+    },
+    {
       "image": "/skills/nextjs.png",
       "alt": "Nextjs logo",
       "name": "Next.js"
@@ -68,6 +73,98 @@
   ],
   "projects": [
     {
+      "id": "cecureintel-civic-platform",
+      "name": "Civic Engagement Platform",
+      "organization": "CecureIntel",
+      "period": "Feb 2025 - Present",
+      "description": "Built core features for a multi-tenant platform serving UK local councils: committee management, public meeting scheduling with conflict detection, agenda and minutes publishing, restricted member portals, and municipal-year views across elections, petitions, consultations, and spending."
+    },
+    {
+      "id": "cecureintel-council-customizer",
+      "name": "Council Branding & Content System",
+      "organization": "CecureIntel",
+      "period": "Feb 2025 - Present",
+      "description": "Created a configurable branding system for council sites, including hero variants, color tokens, navigation, footers, and template controls, plus a centralized MetaKeys registry for per-council content settings without code changes."
+    },
+    {
+      "id": "cecureintel-publishing-tools",
+      "name": "Publishing & Public Consultation Tools",
+      "organization": "CecureIntel",
+      "period": "Feb 2025 - Present",
+      "description": "Built a branded PDF engine for agenda packs and hard-copy bundles, with cover pages and clickable navigation, alongside consultation-response moderation with inline review and respondent-type tracking."
+    },
+    {
+      "id": "cecureintel-web-migration",
+      "name": "Website Migration & SEO",
+      "organization": "CecureIntel",
+      "period": "Feb 2025 - Present",
+      "description": "Helped migrate company websites from React to Next.js and implemented SEO improvements. The work cut load time by 20%, increased organic visibility by 20%, and contributed to a 5% lift in traffic and revenue."
+    },
+    {
+      "id": "cecureintel-hr-ai",
+      "name": "HR & Financial Intelligence Products",
+      "organization": "CecureIntel",
+      "period": "Feb 2025 - Present",
+      "description": "Contributed frontend interfaces to a microservices-based HR management application and a generative AI product for financial management and fraud detection."
+    },
+    {
+      "id": "healthtracka-patient-app",
+      "name": "Healthtracka App",
+      "organization": "Healthtracka",
+      "period": "Sep 2023 - Feb 2025",
+      "status": "Live",
+      "description": "Contributed to the live React Native patient app and shipped Patient Dashboard V2 with biomarker scales, scan summaries, overdue-test alerts, dependent switching, and an interactive results timeline. The updated experience reduced patient confusion calls by 62%.",
+      "appStoreUrl": "https://apps.apple.com/us/app/healthtracka/id6744414213"
+    },
+    {
+      "id": "healthtracka-lab-results",
+      "name": "Lab Results & Self-Service PDFs",
+      "organization": "Healthtracka",
+      "period": "Sep 2023 - Feb 2025",
+      "status": "Live",
+      "description": "Built a lab-results PDF engine and self-serve download flow, turning lab data into branded reports. It passed 8,000 downloads, moved 82% of users to self-service, reduced nurse follow-up calls by 40%, and freed about 18 staff hours each week."
+    },
+    {
+      "id": "caretracka-app",
+      "name": "Caretracka App",
+      "organization": "Healthtracka",
+      "period": "Sep 2023 - Feb 2025",
+      "status": "Live",
+      "description": "Contributed to the live React Native mobile app for test booking and vitals tracking, including work across the app and its supporting API.",
+      "appStoreUrl": "https://apps.apple.com/us/app/caretracka/id6474532685"
+    },
+    {
+      "id": "banking-on-womens-health",
+      "name": "Banking on Women’s Health",
+      "organization": "Healthtracka",
+      "period": "Sep 2023 - Feb 2025",
+      "status": "Live",
+      "description": "Delivered a full-stack conference platform with registration, QR ticketing, and an admin check-in portal. It handled 1,200+ registrations in 48 hours, enabled 3-second check-ins, shortened queues by 72%, and reduced admin workload by 40%.",
+      "url": "https://bankingonwomenshealth.org/"
+    },
+    {
+      "id": "healthtracka-partner-portal",
+      "name": "Organization Partner Portal",
+      "organization": "Healthtracka",
+      "period": "Sep 2023 - Feb 2025",
+      "status": "Launched",
+      "description": "Launched a partner portal with bulk-purchase flows, increasing partner sales volume by 30% in its first quarter."
+    },
+    {
+      "id": "coutvel-website-migration",
+      "name": "Coutvel Website Migration",
+      "image": "/projects/coutvel-preview.jpg",
+      "description": "Migrated and rehosted Coutvel’s website from WordPress to React. The site presents its security, fire-safety, solar-power, and IT procurement services to business customers.",
+      "url": "https://coutvel.ng/"
+    },
+    {
+      "id": "academic-website",
+      "name": "Academic Website",
+      "image": "/projects/academic-site-preview.jpg",
+      "description": "Built a public-facing academic website for Dr. Ikenna P. Okpaleke, bringing together his theology research, publications, teaching, conferences, and professional profile.",
+      "url": "https://ikenna-okpaleke.vercel.app/"
+    },
+    {
       "id": "invoice-generator",
       "name": "Invoice Generator",
       "image": "/projects/invoice-generator.png",
@@ -88,84 +185,9 @@
           "id": "ig-tailwind"
         }
       ],
-      "description": "A free, privacy-first invoice and quotation generator. Create professional documents with 17+ templates, download as PDF — no signup required.",
+      "description": "A privacy-first invoice and quotation generator for creating professional documents without an account. Choose from 17+ templates and download finished invoices as PDFs.",
       "url": "https://invoice-generator-nine-vert.vercel.app/",
       "repo": "https://github.com/ibimina/invoice-generator"
-    },
-    {
-      "id": "streamline-suite",
-      "name": "Streamline Suite",
-      "image": "/projects/streamline.png",
-      "technologies": [
-        {
-          "image": "/skills/nextjs.png",
-          "alt": "Next.js logo",
-          "id": "ss-next"
-        },
-        {
-          "image": "/skills/typescript.png",
-          "alt": "TypeScript logo",
-          "id": "ss-ts"
-        },
-        {
-          "image": "/skills/tailwind.svg",
-          "alt": "Tailwind CSS logo",
-          "id": "ss-tailwind"
-        }
-      ],
-      "description": "A comprehensive financial management platform for businesses. Manage invoices, expenses, inventory, payroll, and analytics in one place.",
-      "url": "https://streamline-suite-fe.vercel.app/",
-      "repo": "https://github.com/ibimina/streamline-suite-fe"
-    },
-    {
-      "id": "colorsketch",
-      "name": "ColorSketch",
-      "image": "/projects/colorsketch.png",
-      "technologies": [
-        {
-          "image": "/skills/nextjs.png",
-          "alt": "Next.js logo",
-          "id": "cs-next"
-        },
-        {
-          "image": "/skills/typescript.png",
-          "alt": "TypeScript logo",
-          "id": "cs-ts"
-        },
-        {
-          "image": "/skills/tailwind.svg",
-          "alt": "Tailwind CSS logo",
-          "id": "cs-tailwind"
-        }
-      ],
-      "description": "A real-time collaborative drawing application. Create, share, and draw together with friends using an intuitive canvas interface.",
-      "url": "https://colorsketch.vercel.app/",
-      "repo": "https://github.com/ibimina/colorsketch"
-    },
-    {
-      "id": "inkSpire",
-      "name": "InkSpire",
-      "image": "/projects/inkspire.png",
-      "technologies": [
-        {
-          "image": "/skills/nextjs.png",
-          "alt": "Next.js logo",
-          "id": "ink-next"
-        },
-        {
-          "image": "/skills/typescript.png",
-          "alt": "TypeScript logo",
-          "id": "ink-ts"
-        },
-        {
-          "image": "/skills/firebase.svg",
-          "alt": "Firebase logo",
-          "id": "ink-firebase"
-        }
-      ],
-      "description": "A blogging platform where users can create, edit, and share articles with the world and receive feedback from readers.",
-      "url": "https://ibimina-chatter.vercel.app/",
-      "repo": "https://github.com/ibimina/ibimina-chatter"
     }
   ]
 }

@@ -1,100 +1,139 @@
-.contact p {
-  margin-bottom: 1.5rem;
-  color: var(--color-text-secondary);
+.contact {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 80px;
+  margin-left: calc(50% - 50vw);
+  padding: 82px max(40px, calc((100vw - 1120px) / 2)) 90px;
+  background: var(--color-ink);
+  color: #fff;
+}
+
+.contactCopy {
+  max-width: 420px;
+}
+
+.eyebrow {
+  margin-bottom: 14px;
+  color: var(--color-accent);
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.heading {
+  max-width: 400px;
+  margin-bottom: 18px;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.description {
+  max-width: 360px;
+  margin-bottom: 26px;
+  color: #c1cbc4;
+  font-size: 15px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 510px;
+  gap: 12px;
 }
 
-.form input {
-  padding: 0.875rem 1rem;
-  display: block;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  border: 1px solid var(--color-border);
+.form input,
+.message {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
+  border: 1px solid #49554e;
+  border-radius: 0;
   outline: none;
+  background: #202b25;
+  color: #fff;
   font-family: inherit;
-  font-size: 1rem;
-  background: var(--color-surface);
-  transition:
-    border-color var(--transition),
-    box-shadow var(--transition);
+  font-size: 14px;
+  transition: border-color var(--transition);
 }
 
 .message {
-  border-radius: 8px;
-  padding: 0.875rem 1rem;
-  outline: none;
-  font-family: inherit;
-  font-size: 1rem;
-  border: 1px solid var(--color-border);
-  background: var(--color-surface);
+  min-height: 132px;
   resize: vertical;
-  min-height: 120px;
-  transition:
-    border-color var(--transition),
-    box-shadow var(--transition);
+}
+
+.form input::placeholder,
+.message::placeholder {
+  color: #a0aaa3;
 }
 
 .form input:focus,
 .message:focus {
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  border-color: var(--color-accent);
 }
 
-.submit {
-  background-color: var(--color-primary);
+.form .submit {
+  width: fit-content;
+  min-height: 48px;
+  margin-top: 7px;
+  padding: 0 18px;
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  color: var(--color-ink);
   cursor: pointer;
-  color: white;
-  margin-top: 1.5rem;
-  font-weight: 500;
-  padding: 0.875rem 1.5rem;
-  border: none;
-  transition: all var(--transition);
+  font-size: 12px;
+  font-weight: 700;
+  transition:
+    background var(--transition),
+    transform var(--transition);
 }
 
-.submit:hover {
-  background-color: var(--color-primary-hover);
+.form .submit:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  background: #c3e451;
+}
+
+.form .submit:disabled {
+  cursor: wait;
+  opacity: 0.7;
 }
 
 .icons {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 10px;
 }
 
 .icons a {
-  color: var(--color-text-secondary);
-  cursor: pointer;
-  background-color: var(--color-surface);
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: 1px solid var(--color-border);
-  transition: all var(--transition);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid #49554e;
+  color: #fff;
+  text-decoration: none;
+  transition:
+    border-color var(--transition),
+    color var(--transition);
 }
 
 .icons a:hover {
-  color: var(--color-primary);
-  border-color: var(--color-primary);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-sm);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
-@media (min-width: 60rem) {
+@media (max-width: 700px) {
   .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: start;
+    grid-template-columns: 1fr;
+    gap: 38px;
+    padding: 60px 28px 68px;
+  }
+
+  .heading {
+    font-size: 34px;
   }
 }
