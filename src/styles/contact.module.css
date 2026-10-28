@@ -4,13 +4,14 @@
   grid-template-columns: 0.9fr 1.1fr;
   gap: 80px;
   margin-left: calc(50% - 50vw);
-  padding: 82px max(40px, calc((100vw - 1120px) / 2)) 90px;
+  padding: 82px max(64px, calc((100vw - 1120px) / 2)) 90px;
   background: var(--color-ink);
   color: #fff;
 }
 
 .contactCopy {
   max-width: 420px;
+  padding-left: 32px;
 }
 
 .eyebrow {
@@ -126,11 +127,21 @@
   color: var(--color-accent);
 }
 
+@media (max-width: 900px) {
+  .contact {
+    gap: 48px;
+  }
+}
+
 @media (max-width: 700px) {
   .contact {
     grid-template-columns: 1fr;
     gap: 38px;
-    padding: 60px 28px 68px;
+    padding: 60px 36px 68px;
+  }
+
+  .contactCopy {
+    padding-left: 0;
   }
 
   .heading {
